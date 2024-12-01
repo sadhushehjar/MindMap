@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aidan Donnellan - Watch Data Viewer</title>
+    <style>
+        body {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+        }
+        .form-group {
+            margin: 20px 0;
+        }
+        select {
+            padding: 5px;
+            margin: 5px;
+            min-width: 200px;
+        }
+        .plot-container {
+            margin: 20px 0;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .error-message {
+            color: #721c24;
+            background-color: #f8d7da;
+            border: 1px solid #f5c6cb;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 4px;
+        }
+        .no-data {
+            color: #856404;
+            background-color: #fff3cd;
+            border: 1px solid #ffeeba;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Watch Data Viewer</h1>
+
+    <!-- Forms in a single container to maintain context -->
+    <div class="form-container">
+        <!-- Overall Data Type Dropdown -->
+        <form method="POST" action="/" class="form-group">
+            <label for="data_type">Select Data Type:</label>
+            <select name="data_type" id="data_type" onchange="this.form.submit()" {% if not data_types %}disabled{% endif %}>
+                {% if data_types %}
+                    {% for dtype in data_types %}
+                        <option value="{{ dtype }}" {% if dtype == selected_data_type %}selected{% endif %}>{{ dtype }}</option>
+                    {% endfor %}
+                {% else %}
+                    <option value="">No data types available</option>
+                {% endif %}
+            </select>
+            
+            <!-- Maintain selected values across form submissions -->
+            {% if selected_participant %}
+                <input type="hidden" name="participant" value="{{ selected_participant }}">
+            {% endif %}
+            {% if selected_session %}
+                <input type="hidden" name="session" value="{{ selected_session }}">
+            {% endif %}
+        </form>
+
+        <!-- Overview Graph -->
+        <div class="plot-container">
+            <h2>Overview of All Participants</h2>
+            {% if overview_plot.startswith('Error') or overview_plot.startswith('No') %}
+                <div class="{% if overview_plot.startswith('Error') %}error-message{% else %}no-data{% endif %}">
+                    {{ overview_plot }}
+                </div>
+            {% else %}
+                <div>{{ overview_plot | safe }}</div>
+            {% endif %}
+        </div>
+
+        <hr>
+
+        <!-- Participant Dropdown -->
+        <form method="POST" action="/" class="form-group">
+            <label for="participant">Select Participant (P# or N#):</label>
+            <select name="participant" id="participant" onchange="this.form.submit()" {% if not participants %}disabled{% endif %}>
+                {% if participants %}
+                    {% for participant in participants %}
+                        <option value="{{ participant }}" {% if participant == selected_participant %}selected{% endif %}>{{ participant }}</option>
+                    {% endfor %}
+                {% else %}
+                    <option value="">No participants available</option>
+                {% endif %}
+            </select>
+            
+            <!-- Maintain selected values across form submissions -->
+            {% if selected_data_type %}
+                <input type="hidden" name="data_type" value="{{ selected_data_type }}">
+            {% endif %}
+            {% if selected_session %}
+                <input type="hidden" name="session" value="{{ selected_session }}">
+            {% endif %}
+        </form>
+
+        <!-- Session Dropdown -->
+        <form method="POST" action="/" class="form-group">
+            <label for="session">Select Session:</label>
+            <select name="session" id="session" onchange="this.form.submit()" {% if not sessions %}disabled{% endif %}>
+                {% if sessions %}
+                    {% for session in sessions %}
+                        <option value="{{ session }}" {% if session == selected_session %}selected{% endif %}>{{ session }}</option>
+                    {% endfor %}
+                {% else %}
+                    <option value="">No sessions available</option>
+                {% endif %}
+            </select>
+            
+            <!-- Maintain selected values across form submissions -->
+            {% if selected_data_type %}
+                <input type="hidden" name="data_type" value="{{ selected_data_type }}">
+            {% endif %}
+            {% if selected_participant %}
+                <input type="hidden" name="participant" value="{{ selected_participant }}">
+            {% endif %}
+        </form>
+
+        <!-- Session Graph -->
+        <div class="plot-container">
+            <h2>Session-Specific Data</h2>
+            {% if session_plot.startswith('Error') or session_plot.startswith('No') %}
+                <div class="{% if session_plot.startswith('Error') %}error-message{% else %}no-data{% endif %}">
+                    {{ session_plot }}
+                </div>
+            {% else %}
+                <div>{{ session_plot | safe }}</div>
+            {% endif %}
+        </div>
+    </div>
+</body>
+</html>
