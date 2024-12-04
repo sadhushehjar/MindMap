@@ -1,0 +1,1144 @@
+2024-12-04 03:33:12,557 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-04 03:33:12,558 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-04 03:33:20,587 - INFO - Flask app started processing request.
+2024-12-04 03:33:20,587 - INFO - Selected data type: heartrate
+2024-12-04 03:33:20,587 - INFO - Selected participant: N10
+2024-12-04 03:33:20,588 - INFO - Selected session: Session_1
+2024-12-04 03:33:22,313 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\heartrate\N10\Session_1.csv
+2024-12-04 03:33:22,314 - ERROR - Session file not found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\heartrate\N10\Session_1.csv
+2024-12-04 03:33:22,314 - ERROR - Exception on / [POST]
+Traceback (most recent call last):
+  File "C:\Users\Aidan\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Aidan\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Aidan\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Aidan\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\MindMap\MindMap-main\application\routes.py", line 163, in index
+    overview_plot=overview_html,
+                  ^^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'overview_html' where it is not associated with a value
+2024-12-04 03:33:22,315 - INFO - 127.0.0.1 - - [04/Dec/2024 03:33:22] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2024-12-04 03:34:04,661 - INFO - Flask app started processing request.
+2024-12-04 03:34:04,661 - INFO - Selected data type: heartrate
+2024-12-04 03:34:04,661 - INFO - Selected participant: N10
+2024-12-04 03:34:04,662 - INFO - Selected session: Session_1
+2024-12-04 03:34:06,360 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\heartrate\N10\Session_1.csv
+2024-12-04 03:34:06,360 - ERROR - Session file not found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\heartrate\N10\Session_1.csv
+2024-12-04 03:34:06,360 - ERROR - Exception on / [POST]
+Traceback (most recent call last):
+  File "C:\Users\Aidan\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Aidan\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Aidan\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Aidan\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\MindMap\MindMap-main\application\routes.py", line 163, in index
+    overview_plot=overview_html,
+                  ^^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'overview_html' where it is not associated with a value
+2024-12-04 03:34:06,361 - INFO - 127.0.0.1 - - [04/Dec/2024 03:34:06] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2024-12-04 03:42:08,580 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-04 03:42:08,580 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-04 03:42:13,912 - INFO - Flask app started processing request.
+2024-12-04 03:42:13,912 - INFO - Selected data type: heartrate
+2024-12-04 03:42:13,912 - INFO - Selected participant: N10
+2024-12-04 03:42:13,912 - INFO - Selected session: Session_1
+2024-12-04 03:42:13,913 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N10\Session_1.csv
+2024-12-04 03:42:13,913 - INFO - Files in D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N10: ['Session_1.csv', 'Session_2.csv', 'Session_3.csv', 'Session_4.csv', 'Session_5.csv', 'Session_6.csv', 'Session_7.csv', 'Session_8.csv', 'Session_9.csv']
+2024-12-04 03:42:13,913 - INFO - Session file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N10\Session_1.csv
+2024-12-04 03:42:14,658 - INFO - 127.0.0.1 - - [04/Dec/2024 03:42:14] "POST / HTTP/1.1" 200 -
+2024-12-04 03:42:20,332 - INFO - Flask app started processing request.
+2024-12-04 03:42:20,333 - INFO - Selected data type: heartrate
+2024-12-04 03:42:20,333 - INFO - Selected participant: N10
+2024-12-04 03:42:20,333 - INFO - Selected session: Session_2
+2024-12-04 03:42:20,333 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N10\Session_2.csv
+2024-12-04 03:42:20,334 - INFO - Files in D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N10: ['Session_1.csv', 'Session_2.csv', 'Session_3.csv', 'Session_4.csv', 'Session_5.csv', 'Session_6.csv', 'Session_7.csv', 'Session_8.csv', 'Session_9.csv']
+2024-12-04 03:42:20,334 - INFO - Session file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N10\Session_2.csv
+2024-12-04 03:42:20,364 - INFO - 127.0.0.1 - - [04/Dec/2024 03:42:20] "POST / HTTP/1.1" 200 -
+2024-12-04 03:42:24,765 - INFO - Flask app started processing request.
+2024-12-04 03:42:24,766 - INFO - Selected data type: heartrate
+2024-12-04 03:42:24,766 - INFO - Selected participant: N10
+2024-12-04 03:42:24,766 - INFO - Selected session: Session_4
+2024-12-04 03:42:24,766 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N10\Session_4.csv
+2024-12-04 03:42:24,766 - INFO - Files in D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N10: ['Session_1.csv', 'Session_2.csv', 'Session_3.csv', 'Session_4.csv', 'Session_5.csv', 'Session_6.csv', 'Session_7.csv', 'Session_8.csv', 'Session_9.csv']
+2024-12-04 03:42:24,767 - INFO - Session file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N10\Session_4.csv
+2024-12-04 03:42:24,793 - INFO - 127.0.0.1 - - [04/Dec/2024 03:42:24] "POST / HTTP/1.1" 200 -
+2024-12-04 03:42:29,610 - INFO - Flask app started processing request.
+2024-12-04 03:42:29,610 - INFO - Selected data type: heartrate(1)
+2024-12-04 03:42:29,610 - INFO - Selected participant: P4
+2024-12-04 03:42:29,610 - INFO - Selected session: Session_4
+2024-12-04 03:42:29,611 - INFO - 127.0.0.1 - - [04/Dec/2024 03:42:29] "POST / HTTP/1.1" 200 -
+2024-12-04 03:42:30,827 - INFO - Flask app started processing request.
+2024-12-04 03:42:30,827 - INFO - Selected data type: heartrate
+2024-12-04 03:42:30,827 - INFO - Selected participant: P4
+2024-12-04 03:42:30,827 - INFO - Selected session: Session_4
+2024-12-04 03:42:30,828 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\P4\Session_4.csv
+2024-12-04 03:42:30,828 - INFO - Files in D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\P4: ['Session_1.csv', 'Session_2.csv', 'Session_3.csv', 'Session_4.csv', 'Session_5.csv', 'Session_6.csv', 'Session_7.csv', 'Session_8.csv']
+2024-12-04 03:42:30,828 - INFO - Session file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\P4\Session_4.csv
+2024-12-04 03:42:30,855 - INFO - 127.0.0.1 - - [04/Dec/2024 03:42:30] "POST / HTTP/1.1" 200 -
+2024-12-04 03:42:32,214 - INFO - Flask app started processing request.
+2024-12-04 03:42:32,214 - INFO - Selected data type: heartrate
+2024-12-04 03:42:32,214 - INFO - Selected participant: N18
+2024-12-04 03:42:32,214 - INFO - Selected session: Session_4
+2024-12-04 03:42:32,214 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N18\Session_4.csv
+2024-12-04 03:42:32,215 - INFO - Files in D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N18: ['Session_1.csv', 'Session_2.csv', 'Session_3.csv', 'Session_4.csv', 'Session_5.csv', 'Session_6.csv', 'Session_7.csv']
+2024-12-04 03:42:32,215 - INFO - Session file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N18\Session_4.csv
+2024-12-04 03:42:32,241 - INFO - 127.0.0.1 - - [04/Dec/2024 03:42:32] "POST / HTTP/1.1" 200 -
+2024-12-04 03:42:34,130 - INFO - Flask app started processing request.
+2024-12-04 03:42:34,130 - INFO - Selected data type: heartrate
+2024-12-04 03:42:34,130 - INFO - Selected participant: N18
+2024-12-04 03:42:34,130 - INFO - Selected session: Session_2
+2024-12-04 03:42:34,131 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N18\Session_2.csv
+2024-12-04 03:42:34,131 - INFO - Files in D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N18: ['Session_1.csv', 'Session_2.csv', 'Session_3.csv', 'Session_4.csv', 'Session_5.csv', 'Session_6.csv', 'Session_7.csv']
+2024-12-04 03:42:34,131 - INFO - Session file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N18\Session_2.csv
+2024-12-04 03:42:34,160 - INFO - 127.0.0.1 - - [04/Dec/2024 03:42:34] "POST / HTTP/1.1" 200 -
+2024-12-04 03:42:35,493 - INFO - Flask app started processing request.
+2024-12-04 03:42:35,493 - INFO - Selected data type: heartrate
+2024-12-04 03:42:35,494 - INFO - Selected participant: N18
+2024-12-04 03:42:35,494 - INFO - Selected session: Session_1
+2024-12-04 03:42:35,494 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N18\Session_1.csv
+2024-12-04 03:42:35,494 - INFO - Files in D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N18: ['Session_1.csv', 'Session_2.csv', 'Session_3.csv', 'Session_4.csv', 'Session_5.csv', 'Session_6.csv', 'Session_7.csv']
+2024-12-04 03:42:35,495 - INFO - Session file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N18\Session_1.csv
+2024-12-04 03:42:35,521 - INFO - 127.0.0.1 - - [04/Dec/2024 03:42:35] "POST / HTTP/1.1" 200 -
+2024-12-04 03:42:37,280 - INFO - Flask app started processing request.
+2024-12-04 03:42:37,281 - INFO - Selected data type: heartrate
+2024-12-04 03:42:37,281 - INFO - Selected participant: N18
+2024-12-04 03:42:37,281 - INFO - Selected session: Session_4
+2024-12-04 03:42:37,281 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N18\Session_4.csv
+2024-12-04 03:42:37,281 - INFO - Files in D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N18: ['Session_1.csv', 'Session_2.csv', 'Session_3.csv', 'Session_4.csv', 'Session_5.csv', 'Session_6.csv', 'Session_7.csv']
+2024-12-04 03:42:37,281 - INFO - Session file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N18\Session_4.csv
+2024-12-04 03:42:37,300 - INFO - 127.0.0.1 - - [04/Dec/2024 03:42:37] "POST / HTTP/1.1" 200 -
+2024-12-04 03:44:36,745 - INFO - Flask app started processing request.
+2024-12-04 03:44:36,745 - INFO - Selected data type: heartrate
+2024-12-04 03:44:36,745 - INFO - Selected participant: N18
+2024-12-04 03:44:36,745 - INFO - Selected session: Session_2
+2024-12-04 03:44:36,746 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N18\Session_2.csv
+2024-12-04 03:44:36,746 - INFO - Files in D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N18: ['Session_1.csv', 'Session_2.csv', 'Session_3.csv', 'Session_4.csv', 'Session_5.csv', 'Session_6.csv', 'Session_7.csv']
+2024-12-04 03:44:36,746 - INFO - Session file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N18\Session_2.csv
+2024-12-04 03:44:36,770 - INFO - 127.0.0.1 - - [04/Dec/2024 03:44:36] "POST / HTTP/1.1" 200 -
+2024-12-04 03:44:38,671 - INFO - Flask app started processing request.
+2024-12-04 03:44:38,671 - INFO - Selected data type: heartrate
+2024-12-04 03:44:38,671 - INFO - Selected participant: N18
+2024-12-04 03:44:38,671 - INFO - Selected session: Session_1
+2024-12-04 03:44:38,671 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N18\Session_1.csv
+2024-12-04 03:44:38,671 - INFO - Files in D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N18: ['Session_1.csv', 'Session_2.csv', 'Session_3.csv', 'Session_4.csv', 'Session_5.csv', 'Session_6.csv', 'Session_7.csv']
+2024-12-04 03:44:38,671 - INFO - Session file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N18\Session_1.csv
+2024-12-04 03:44:38,694 - INFO - 127.0.0.1 - - [04/Dec/2024 03:44:38] "POST / HTTP/1.1" 200 -
+2024-12-04 03:44:40,773 - INFO - Flask app started processing request.
+2024-12-04 03:44:40,773 - INFO - Selected data type: heartrate
+2024-12-04 03:44:40,773 - INFO - Selected participant: N18
+2024-12-04 03:44:40,773 - INFO - Selected session: Session_2
+2024-12-04 03:44:40,773 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N18\Session_2.csv
+2024-12-04 03:44:40,774 - INFO - Files in D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N18: ['Session_1.csv', 'Session_2.csv', 'Session_3.csv', 'Session_4.csv', 'Session_5.csv', 'Session_6.csv', 'Session_7.csv']
+2024-12-04 03:44:40,774 - INFO - Session file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N18\Session_2.csv
+2024-12-04 03:44:40,793 - INFO - 127.0.0.1 - - [04/Dec/2024 03:44:40] "POST / HTTP/1.1" 200 -
+2024-12-04 03:48:08,707 - INFO - Flask app started processing request.
+2024-12-04 03:48:08,707 - INFO - Selected data type: heartrate(1)
+2024-12-04 03:48:08,708 - INFO - Selected participant: P4
+2024-12-04 03:48:08,708 - INFO - Selected session: Session_3
+2024-12-04 03:48:08,708 - INFO - 127.0.0.1 - - [04/Dec/2024 03:48:08] "POST / HTTP/1.1" 200 -
+2024-12-04 03:48:10,048 - INFO - Flask app started processing request.
+2024-12-04 03:48:10,048 - INFO - Selected data type: heartrate
+2024-12-04 03:48:10,048 - INFO - Selected participant: P4
+2024-12-04 03:48:10,048 - INFO - Selected session: Session_3
+2024-12-04 03:48:10,048 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\P4\Session_3.csv
+2024-12-04 03:48:10,049 - INFO - Files in D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\P4: ['Session_1.csv', 'Session_2.csv', 'Session_3.csv', 'Session_4.csv', 'Session_5.csv', 'Session_6.csv', 'Session_7.csv', 'Session_8.csv']
+2024-12-04 03:48:10,049 - INFO - Session file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\P4\Session_3.csv
+2024-12-04 03:48:10,083 - INFO - 127.0.0.1 - - [04/Dec/2024 03:48:10] "POST / HTTP/1.1" 200 -
+2024-12-04 03:48:13,243 - INFO - Flask app started processing request.
+2024-12-04 03:48:13,243 - INFO - Selected data type: heartrate
+2024-12-04 03:48:13,244 - INFO - Selected participant: N14
+2024-12-04 03:48:13,244 - INFO - Selected session: Session_1
+2024-12-04 03:48:13,244 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N14\Session_1.csv
+2024-12-04 03:48:13,244 - INFO - Files in D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N14: ['Session_1.csv']
+2024-12-04 03:48:13,244 - INFO - Session file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N14\Session_1.csv
+2024-12-04 03:48:13,272 - INFO - 127.0.0.1 - - [04/Dec/2024 03:48:13] "POST / HTTP/1.1" 200 -
+2024-12-04 03:48:15,927 - INFO - Flask app started processing request.
+2024-12-04 03:48:15,927 - INFO - Selected data type: heartrate
+2024-12-04 03:48:15,928 - INFO - Selected participant: N11
+2024-12-04 03:48:15,928 - INFO - Selected session: Session_1
+2024-12-04 03:48:15,928 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N11\Session_1.csv
+2024-12-04 03:48:15,928 - INFO - Files in D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N11: ['Session_1.csv', 'Session_2.csv', 'Session_3.csv']
+2024-12-04 03:48:15,928 - INFO - Session file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N11\Session_1.csv
+2024-12-04 03:48:15,959 - INFO - 127.0.0.1 - - [04/Dec/2024 03:48:15] "POST / HTTP/1.1" 200 -
+2024-12-04 03:48:18,779 - INFO - Flask app started processing request.
+2024-12-04 03:48:18,780 - INFO - Selected data type: heartrate
+2024-12-04 03:48:18,780 - INFO - Selected participant: N11
+2024-12-04 03:48:18,780 - INFO - Selected session: Session_2
+2024-12-04 03:48:18,780 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N11\Session_2.csv
+2024-12-04 03:48:18,780 - INFO - Files in D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N11: ['Session_1.csv', 'Session_2.csv', 'Session_3.csv']
+2024-12-04 03:48:18,781 - INFO - Session file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N11\Session_2.csv
+2024-12-04 03:48:18,806 - INFO - 127.0.0.1 - - [04/Dec/2024 03:48:18] "POST / HTTP/1.1" 200 -
+2024-12-04 03:48:20,286 - INFO - Flask app started processing request.
+2024-12-04 03:48:20,286 - INFO - Selected data type: heartrate
+2024-12-04 03:48:20,286 - INFO - Selected participant: N11
+2024-12-04 03:48:20,286 - INFO - Selected session: Session_3
+2024-12-04 03:48:20,286 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N11\Session_3.csv
+2024-12-04 03:48:20,287 - INFO - Files in D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N11: ['Session_1.csv', 'Session_2.csv', 'Session_3.csv']
+2024-12-04 03:48:20,287 - INFO - Session file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N11\Session_3.csv
+2024-12-04 03:48:20,315 - INFO - 127.0.0.1 - - [04/Dec/2024 03:48:20] "POST / HTTP/1.1" 200 -
+2024-12-04 03:48:29,173 - INFO - Flask app started processing request.
+2024-12-04 03:48:29,174 - INFO - Selected data type: heartrate
+2024-12-04 03:48:29,174 - INFO - Selected participant: N11
+2024-12-04 03:48:29,174 - INFO - Selected session: Session_2
+2024-12-04 03:48:29,174 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N11\Session_2.csv
+2024-12-04 03:48:29,174 - INFO - Files in D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N11: ['Session_1.csv', 'Session_2.csv', 'Session_3.csv']
+2024-12-04 03:48:29,174 - INFO - Session file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N11\Session_2.csv
+2024-12-04 03:48:29,195 - INFO - 127.0.0.1 - - [04/Dec/2024 03:48:29] "POST / HTTP/1.1" 200 -
+2024-12-04 03:48:32,412 - INFO - Flask app started processing request.
+2024-12-04 03:48:32,412 - INFO - Selected data type: heartrate
+2024-12-04 03:48:32,412 - INFO - Selected participant: N10
+2024-12-04 03:48:32,412 - INFO - Selected session: Session_2
+2024-12-04 03:48:32,412 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N10\Session_2.csv
+2024-12-04 03:48:32,412 - INFO - Files in D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N10: ['Session_1.csv', 'Session_2.csv', 'Session_3.csv', 'Session_4.csv', 'Session_5.csv', 'Session_6.csv', 'Session_7.csv', 'Session_8.csv', 'Session_9.csv']
+2024-12-04 03:48:32,413 - INFO - Session file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N10\Session_2.csv
+2024-12-04 03:48:32,438 - INFO - 127.0.0.1 - - [04/Dec/2024 03:48:32] "POST / HTTP/1.1" 200 -
+2024-12-04 03:48:33,976 - INFO - Flask app started processing request.
+2024-12-04 03:48:33,976 - INFO - Selected data type: heartrate
+2024-12-04 03:48:33,976 - INFO - Selected participant: N10
+2024-12-04 03:48:33,976 - INFO - Selected session: Session_1
+2024-12-04 03:48:33,976 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N10\Session_1.csv
+2024-12-04 03:48:33,976 - INFO - Files in D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N10: ['Session_1.csv', 'Session_2.csv', 'Session_3.csv', 'Session_4.csv', 'Session_5.csv', 'Session_6.csv', 'Session_7.csv', 'Session_8.csv', 'Session_9.csv']
+2024-12-04 03:48:33,977 - INFO - Session file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N10\Session_1.csv
+2024-12-04 03:48:34,001 - INFO - 127.0.0.1 - - [04/Dec/2024 03:48:34] "POST / HTTP/1.1" 200 -
+2024-12-04 03:48:36,259 - INFO - Flask app started processing request.
+2024-12-04 03:48:36,259 - INFO - Selected data type: heartrate
+2024-12-04 03:48:36,259 - INFO - Selected participant: N10
+2024-12-04 03:48:36,259 - INFO - Selected session: Session_3
+2024-12-04 03:48:36,259 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N10\Session_3.csv
+2024-12-04 03:48:36,260 - INFO - Files in D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N10: ['Session_1.csv', 'Session_2.csv', 'Session_3.csv', 'Session_4.csv', 'Session_5.csv', 'Session_6.csv', 'Session_7.csv', 'Session_8.csv', 'Session_9.csv']
+2024-12-04 03:48:36,260 - INFO - Session file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N10\Session_3.csv
+2024-12-04 03:48:36,291 - INFO - 127.0.0.1 - - [04/Dec/2024 03:48:36] "POST / HTTP/1.1" 200 -
+2024-12-04 03:48:39,852 - INFO - Flask app started processing request.
+2024-12-04 03:48:39,852 - INFO - Selected data type: heartrate
+2024-12-04 03:48:39,852 - INFO - Selected participant: N10
+2024-12-04 03:48:39,852 - INFO - Selected session: Session_4
+2024-12-04 03:48:39,852 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N10\Session_4.csv
+2024-12-04 03:48:39,853 - INFO - Files in D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N10: ['Session_1.csv', 'Session_2.csv', 'Session_3.csv', 'Session_4.csv', 'Session_5.csv', 'Session_6.csv', 'Session_7.csv', 'Session_8.csv', 'Session_9.csv']
+2024-12-04 03:48:39,853 - INFO - Session file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N10\Session_4.csv
+2024-12-04 03:48:39,878 - INFO - 127.0.0.1 - - [04/Dec/2024 03:48:39] "POST / HTTP/1.1" 200 -
+2024-12-04 03:48:46,224 - INFO - Flask app started processing request.
+2024-12-04 03:48:46,224 - INFO - Selected data type: heartrate
+2024-12-04 03:48:46,224 - INFO - Selected participant: N10
+2024-12-04 03:48:46,224 - INFO - Selected session: Session_5
+2024-12-04 03:48:46,224 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N10\Session_5.csv
+2024-12-04 03:48:46,224 - INFO - Files in D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N10: ['Session_1.csv', 'Session_2.csv', 'Session_3.csv', 'Session_4.csv', 'Session_5.csv', 'Session_6.csv', 'Session_7.csv', 'Session_8.csv', 'Session_9.csv']
+2024-12-04 03:48:46,224 - INFO - Session file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N10\Session_5.csv
+2024-12-04 03:48:46,246 - INFO - 127.0.0.1 - - [04/Dec/2024 03:48:46] "POST / HTTP/1.1" 200 -
+2024-12-04 03:48:51,445 - INFO - Flask app started processing request.
+2024-12-04 03:48:51,445 - INFO - Selected data type: heartrate
+2024-12-04 03:48:51,445 - INFO - Selected participant: N10
+2024-12-04 03:48:51,446 - INFO - Selected session: Session_6
+2024-12-04 03:48:51,446 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N10\Session_6.csv
+2024-12-04 03:48:51,446 - INFO - Files in D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N10: ['Session_1.csv', 'Session_2.csv', 'Session_3.csv', 'Session_4.csv', 'Session_5.csv', 'Session_6.csv', 'Session_7.csv', 'Session_8.csv', 'Session_9.csv']
+2024-12-04 03:48:51,446 - INFO - Session file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N10\Session_6.csv
+2024-12-04 03:48:51,476 - INFO - 127.0.0.1 - - [04/Dec/2024 03:48:51] "POST / HTTP/1.1" 200 -
+2024-12-04 03:48:55,130 - INFO - Flask app started processing request.
+2024-12-04 03:48:55,130 - INFO - Selected data type: heartrate
+2024-12-04 03:48:55,130 - INFO - Selected participant: N10
+2024-12-04 03:48:55,130 - INFO - Selected session: Session_7
+2024-12-04 03:48:55,130 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N10\Session_7.csv
+2024-12-04 03:48:55,130 - INFO - Files in D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N10: ['Session_1.csv', 'Session_2.csv', 'Session_3.csv', 'Session_4.csv', 'Session_5.csv', 'Session_6.csv', 'Session_7.csv', 'Session_8.csv', 'Session_9.csv']
+2024-12-04 03:48:55,130 - INFO - Session file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N10\Session_7.csv
+2024-12-04 03:48:55,157 - INFO - 127.0.0.1 - - [04/Dec/2024 03:48:55] "POST / HTTP/1.1" 200 -
+2024-12-04 03:48:58,495 - INFO - Flask app started processing request.
+2024-12-04 03:48:58,495 - INFO - Selected data type: heartrate
+2024-12-04 03:48:58,495 - INFO - Selected participant: N10
+2024-12-04 03:48:58,495 - INFO - Selected session: Session_8
+2024-12-04 03:48:58,495 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N10\Session_8.csv
+2024-12-04 03:48:58,496 - INFO - Files in D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N10: ['Session_1.csv', 'Session_2.csv', 'Session_3.csv', 'Session_4.csv', 'Session_5.csv', 'Session_6.csv', 'Session_7.csv', 'Session_8.csv', 'Session_9.csv']
+2024-12-04 03:48:58,496 - INFO - Session file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N10\Session_8.csv
+2024-12-04 03:48:58,522 - INFO - 127.0.0.1 - - [04/Dec/2024 03:48:58] "POST / HTTP/1.1" 200 -
+2024-12-04 03:49:04,321 - INFO - Flask app started processing request.
+2024-12-04 03:49:04,321 - INFO - Selected data type: heartrate
+2024-12-04 03:49:04,321 - INFO - Selected participant: N10
+2024-12-04 03:49:04,321 - INFO - Selected session: Session_9
+2024-12-04 03:49:04,321 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N10\Session_9.csv
+2024-12-04 03:49:04,322 - INFO - Files in D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N10: ['Session_1.csv', 'Session_2.csv', 'Session_3.csv', 'Session_4.csv', 'Session_5.csv', 'Session_6.csv', 'Session_7.csv', 'Session_8.csv', 'Session_9.csv']
+2024-12-04 03:49:04,322 - INFO - Session file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N10\Session_9.csv
+2024-12-04 03:49:04,350 - INFO - 127.0.0.1 - - [04/Dec/2024 03:49:04] "POST / HTTP/1.1" 200 -
+2024-12-04 03:49:07,820 - INFO - Flask app started processing request.
+2024-12-04 03:49:07,820 - INFO - Selected data type: heartrate
+2024-12-04 03:49:07,820 - INFO - Selected participant: N11
+2024-12-04 03:49:07,820 - INFO - Selected session: Session_1
+2024-12-04 03:49:07,820 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N11\Session_1.csv
+2024-12-04 03:49:07,821 - INFO - Files in D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N11: ['Session_1.csv', 'Session_2.csv', 'Session_3.csv']
+2024-12-04 03:49:07,821 - INFO - Session file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N11\Session_1.csv
+2024-12-04 03:49:07,844 - INFO - 127.0.0.1 - - [04/Dec/2024 03:49:07] "POST / HTTP/1.1" 200 -
+2024-12-04 03:49:08,942 - INFO - Flask app started processing request.
+2024-12-04 03:49:08,942 - INFO - Selected data type: heartrate
+2024-12-04 03:49:08,943 - INFO - Selected participant: N11
+2024-12-04 03:49:08,943 - INFO - Selected session: Session_2
+2024-12-04 03:49:08,943 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N11\Session_2.csv
+2024-12-04 03:49:08,943 - INFO - Files in D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N11: ['Session_1.csv', 'Session_2.csv', 'Session_3.csv']
+2024-12-04 03:49:08,943 - INFO - Session file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N11\Session_2.csv
+2024-12-04 03:49:08,961 - INFO - 127.0.0.1 - - [04/Dec/2024 03:49:08] "POST / HTTP/1.1" 200 -
+2024-12-04 03:49:10,533 - INFO - Flask app started processing request.
+2024-12-04 03:49:10,534 - INFO - Selected data type: heartrate
+2024-12-04 03:49:10,534 - INFO - Selected participant: N11
+2024-12-04 03:49:10,534 - INFO - Selected session: Session_3
+2024-12-04 03:49:10,534 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N11\Session_3.csv
+2024-12-04 03:49:10,534 - INFO - Files in D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N11: ['Session_1.csv', 'Session_2.csv', 'Session_3.csv']
+2024-12-04 03:49:10,534 - INFO - Session file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N11\Session_3.csv
+2024-12-04 03:49:10,556 - INFO - 127.0.0.1 - - [04/Dec/2024 03:49:10] "POST / HTTP/1.1" 200 -
+2024-12-04 03:49:12,784 - INFO - Flask app started processing request.
+2024-12-04 03:49:12,784 - INFO - Selected data type: heartrate
+2024-12-04 03:49:12,784 - INFO - Selected participant: N14
+2024-12-04 03:49:12,784 - INFO - Selected session: Session_1
+2024-12-04 03:49:12,784 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N14\Session_1.csv
+2024-12-04 03:49:12,784 - INFO - Files in D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N14: ['Session_1.csv']
+2024-12-04 03:49:12,784 - INFO - Session file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N14\Session_1.csv
+2024-12-04 03:49:12,807 - INFO - 127.0.0.1 - - [04/Dec/2024 03:49:12] "POST / HTTP/1.1" 200 -
+2024-12-04 03:49:16,672 - INFO - Flask app started processing request.
+2024-12-04 03:49:16,672 - INFO - Selected data type: heartrate
+2024-12-04 03:49:16,672 - INFO - Selected participant: N15
+2024-12-04 03:49:16,673 - INFO - Selected session: Session_1
+2024-12-04 03:49:16,673 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N15\Session_1.csv
+2024-12-04 03:49:16,673 - INFO - Files in D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N15: ['Session_1.csv', 'Session_2.csv', 'Session_3.csv', 'Session_4.csv', 'Session_5.csv', 'Session_6.csv', 'Session_7.csv', 'Session_8.csv', 'Session_9.csv']
+2024-12-04 03:49:16,673 - INFO - Session file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N15\Session_1.csv
+2024-12-04 03:49:16,703 - INFO - 127.0.0.1 - - [04/Dec/2024 03:49:16] "POST / HTTP/1.1" 200 -
+2024-12-04 03:49:18,134 - INFO - Flask app started processing request.
+2024-12-04 03:49:18,135 - INFO - Selected data type: heartrate
+2024-12-04 03:49:18,135 - INFO - Selected participant: N15
+2024-12-04 03:49:18,137 - INFO - Selected session: Session_2
+2024-12-04 03:49:18,137 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N15\Session_2.csv
+2024-12-04 03:49:18,137 - INFO - Files in D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N15: ['Session_1.csv', 'Session_2.csv', 'Session_3.csv', 'Session_4.csv', 'Session_5.csv', 'Session_6.csv', 'Session_7.csv', 'Session_8.csv', 'Session_9.csv']
+2024-12-04 03:49:18,138 - INFO - Session file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N15\Session_2.csv
+2024-12-04 03:49:18,165 - INFO - 127.0.0.1 - - [04/Dec/2024 03:49:18] "POST / HTTP/1.1" 200 -
+2024-12-04 03:49:19,785 - INFO - Flask app started processing request.
+2024-12-04 03:49:19,785 - INFO - Selected data type: heartrate
+2024-12-04 03:49:19,785 - INFO - Selected participant: N15
+2024-12-04 03:49:19,785 - INFO - Selected session: Session_3
+2024-12-04 03:49:19,785 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N15\Session_3.csv
+2024-12-04 03:49:19,785 - INFO - Files in D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N15: ['Session_1.csv', 'Session_2.csv', 'Session_3.csv', 'Session_4.csv', 'Session_5.csv', 'Session_6.csv', 'Session_7.csv', 'Session_8.csv', 'Session_9.csv']
+2024-12-04 03:49:19,786 - INFO - Session file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N15\Session_3.csv
+2024-12-04 03:49:19,815 - INFO - 127.0.0.1 - - [04/Dec/2024 03:49:19] "POST / HTTP/1.1" 200 -
+2024-12-04 03:49:22,320 - INFO - Flask app started processing request.
+2024-12-04 03:49:22,321 - INFO - Selected data type: heartrate
+2024-12-04 03:49:22,321 - INFO - Selected participant: N15
+2024-12-04 03:49:22,321 - INFO - Selected session: Session_4
+2024-12-04 03:49:22,321 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N15\Session_4.csv
+2024-12-04 03:49:22,321 - INFO - Files in D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N15: ['Session_1.csv', 'Session_2.csv', 'Session_3.csv', 'Session_4.csv', 'Session_5.csv', 'Session_6.csv', 'Session_7.csv', 'Session_8.csv', 'Session_9.csv']
+2024-12-04 03:49:22,321 - INFO - Session file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N15\Session_4.csv
+2024-12-04 03:49:22,352 - INFO - 127.0.0.1 - - [04/Dec/2024 03:49:22] "POST / HTTP/1.1" 200 -
+2024-12-04 03:49:28,577 - INFO - Flask app started processing request.
+2024-12-04 03:49:28,577 - INFO - Selected data type: heartrate
+2024-12-04 03:49:28,577 - INFO - Selected participant: N15
+2024-12-04 03:49:28,577 - INFO - Selected session: Session_5
+2024-12-04 03:49:28,577 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N15\Session_5.csv
+2024-12-04 03:49:28,577 - INFO - Files in D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N15: ['Session_1.csv', 'Session_2.csv', 'Session_3.csv', 'Session_4.csv', 'Session_5.csv', 'Session_6.csv', 'Session_7.csv', 'Session_8.csv', 'Session_9.csv']
+2024-12-04 03:49:28,577 - INFO - Session file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N15\Session_5.csv
+2024-12-04 03:49:28,607 - INFO - 127.0.0.1 - - [04/Dec/2024 03:49:28] "POST / HTTP/1.1" 200 -
+2024-12-04 03:49:31,142 - INFO - Flask app started processing request.
+2024-12-04 03:49:31,143 - INFO - Selected data type: heartrate
+2024-12-04 03:49:31,143 - INFO - Selected participant: N15
+2024-12-04 03:49:31,143 - INFO - Selected session: Session_6
+2024-12-04 03:49:31,143 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N15\Session_6.csv
+2024-12-04 03:49:31,143 - INFO - Files in D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N15: ['Session_1.csv', 'Session_2.csv', 'Session_3.csv', 'Session_4.csv', 'Session_5.csv', 'Session_6.csv', 'Session_7.csv', 'Session_8.csv', 'Session_9.csv']
+2024-12-04 03:49:31,143 - INFO - Session file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N15\Session_6.csv
+2024-12-04 03:49:31,172 - INFO - 127.0.0.1 - - [04/Dec/2024 03:49:31] "POST / HTTP/1.1" 200 -
+2024-12-04 03:49:33,361 - INFO - Flask app started processing request.
+2024-12-04 03:49:33,362 - INFO - Selected data type: heartrate
+2024-12-04 03:49:33,362 - INFO - Selected participant: N15
+2024-12-04 03:49:33,362 - INFO - Selected session: Session_7
+2024-12-04 03:49:33,362 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N15\Session_7.csv
+2024-12-04 03:49:33,363 - INFO - Files in D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N15: ['Session_1.csv', 'Session_2.csv', 'Session_3.csv', 'Session_4.csv', 'Session_5.csv', 'Session_6.csv', 'Session_7.csv', 'Session_8.csv', 'Session_9.csv']
+2024-12-04 03:49:33,363 - INFO - Session file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N15\Session_7.csv
+2024-12-04 03:49:33,394 - INFO - 127.0.0.1 - - [04/Dec/2024 03:49:33] "POST / HTTP/1.1" 200 -
+2024-12-04 03:49:34,782 - INFO - Flask app started processing request.
+2024-12-04 03:49:34,782 - INFO - Selected data type: heartrate
+2024-12-04 03:49:34,782 - INFO - Selected participant: N15
+2024-12-04 03:49:34,782 - INFO - Selected session: Session_8
+2024-12-04 03:49:34,782 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N15\Session_8.csv
+2024-12-04 03:49:34,783 - INFO - Files in D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N15: ['Session_1.csv', 'Session_2.csv', 'Session_3.csv', 'Session_4.csv', 'Session_5.csv', 'Session_6.csv', 'Session_7.csv', 'Session_8.csv', 'Session_9.csv']
+2024-12-04 03:49:34,783 - INFO - Session file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N15\Session_8.csv
+2024-12-04 03:49:34,817 - INFO - 127.0.0.1 - - [04/Dec/2024 03:49:34] "POST / HTTP/1.1" 200 -
+2024-12-04 03:49:42,746 - INFO - Flask app started processing request.
+2024-12-04 03:49:42,746 - INFO - Selected data type: heartrate
+2024-12-04 03:49:42,746 - INFO - Selected participant: N15
+2024-12-04 03:49:42,746 - INFO - Selected session: Session_9
+2024-12-04 03:49:42,746 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N15\Session_9.csv
+2024-12-04 03:49:42,746 - INFO - Files in D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N15: ['Session_1.csv', 'Session_2.csv', 'Session_3.csv', 'Session_4.csv', 'Session_5.csv', 'Session_6.csv', 'Session_7.csv', 'Session_8.csv', 'Session_9.csv']
+2024-12-04 03:49:42,747 - INFO - Session file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N15\Session_9.csv
+2024-12-04 03:49:42,776 - INFO - 127.0.0.1 - - [04/Dec/2024 03:49:42] "POST / HTTP/1.1" 200 -
+2024-12-04 03:49:47,079 - INFO - Flask app started processing request.
+2024-12-04 03:49:47,079 - INFO - Selected data type: heartrate
+2024-12-04 03:49:47,079 - INFO - Selected participant: N16
+2024-12-04 03:49:47,079 - INFO - Selected session: Session_1
+2024-12-04 03:49:47,079 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N16\Session_1.csv
+2024-12-04 03:49:47,079 - INFO - Files in D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N16: ['Session_1.csv', 'Session_2.csv']
+2024-12-04 03:49:47,079 - INFO - Session file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N16\Session_1.csv
+2024-12-04 03:49:47,104 - INFO - 127.0.0.1 - - [04/Dec/2024 03:49:47] "POST / HTTP/1.1" 200 -
+2024-12-04 03:49:48,924 - INFO - Flask app started processing request.
+2024-12-04 03:49:48,925 - INFO - Selected data type: heartrate
+2024-12-04 03:49:48,925 - INFO - Selected participant: N16
+2024-12-04 03:49:48,925 - INFO - Selected session: Session_2
+2024-12-04 03:49:48,925 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N16\Session_2.csv
+2024-12-04 03:49:48,925 - INFO - Files in D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N16: ['Session_1.csv', 'Session_2.csv']
+2024-12-04 03:49:48,925 - INFO - Session file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N16\Session_2.csv
+2024-12-04 03:49:48,954 - INFO - 127.0.0.1 - - [04/Dec/2024 03:49:48] "POST / HTTP/1.1" 200 -
+2024-12-04 03:50:01,126 - INFO - Flask app started processing request.
+2024-12-04 03:50:01,126 - INFO - Selected data type: heartrate
+2024-12-04 03:50:01,126 - INFO - Selected participant: N17
+2024-12-04 03:50:01,127 - INFO - Selected session: Session_1
+2024-12-04 03:50:01,127 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N17\Session_1.csv
+2024-12-04 03:50:01,127 - INFO - Files in D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N17: ['Session_1.csv']
+2024-12-04 03:50:01,127 - INFO - Session file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N17\Session_1.csv
+2024-12-04 03:50:01,157 - INFO - 127.0.0.1 - - [04/Dec/2024 03:50:01] "POST / HTTP/1.1" 200 -
+2024-12-04 03:50:05,176 - INFO - Flask app started processing request.
+2024-12-04 03:50:05,176 - INFO - Selected data type: heartrate
+2024-12-04 03:50:05,176 - INFO - Selected participant: N18
+2024-12-04 03:50:05,176 - INFO - Selected session: Session_1
+2024-12-04 03:50:05,176 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N18\Session_1.csv
+2024-12-04 03:50:05,177 - INFO - Files in D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N18: ['Session_1.csv', 'Session_2.csv', 'Session_3.csv', 'Session_4.csv', 'Session_5.csv', 'Session_6.csv', 'Session_7.csv']
+2024-12-04 03:50:05,177 - INFO - Session file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N18\Session_1.csv
+2024-12-04 03:50:05,201 - INFO - 127.0.0.1 - - [04/Dec/2024 03:50:05] "POST / HTTP/1.1" 200 -
+2024-12-04 03:50:07,272 - INFO - Flask app started processing request.
+2024-12-04 03:50:07,274 - INFO - Selected data type: heartrate
+2024-12-04 03:50:07,274 - INFO - Selected participant: N19
+2024-12-04 03:50:07,274 - INFO - Selected session: Session_1
+2024-12-04 03:50:07,274 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N19\Session_1.csv
+2024-12-04 03:50:07,274 - INFO - Files in D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N19: ['Session_1.csv']
+2024-12-04 03:50:07,275 - INFO - Session file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N19\Session_1.csv
+2024-12-04 03:50:07,304 - INFO - 127.0.0.1 - - [04/Dec/2024 03:50:07] "POST / HTTP/1.1" 200 -
+2024-12-04 03:50:09,187 - INFO - Flask app started processing request.
+2024-12-04 03:50:09,187 - INFO - Selected data type: heartrate
+2024-12-04 03:50:09,187 - INFO - Selected participant: N20
+2024-12-04 03:50:09,187 - INFO - Selected session: Session_1
+2024-12-04 03:50:09,187 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N20\Session_1.csv
+2024-12-04 03:50:09,187 - INFO - Files in D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N20: ['Session_1.csv', 'Session_10.csv', 'Session_2.csv', 'Session_3.csv', 'Session_4.csv', 'Session_5.csv', 'Session_6.csv', 'Session_7.csv', 'Session_8.csv', 'Session_9.csv']
+2024-12-04 03:50:09,187 - INFO - Session file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N20\Session_1.csv
+2024-12-04 03:50:09,214 - INFO - 127.0.0.1 - - [04/Dec/2024 03:50:09] "POST / HTTP/1.1" 200 -
+2024-12-04 03:50:10,925 - INFO - Flask app started processing request.
+2024-12-04 03:50:10,925 - INFO - Selected data type: heartrate
+2024-12-04 03:50:10,925 - INFO - Selected participant: N21
+2024-12-04 03:50:10,925 - INFO - Selected session: Session_1
+2024-12-04 03:50:10,925 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N21\Session_1.csv
+2024-12-04 03:50:10,926 - INFO - Files in D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N21: ['Session_1.csv']
+2024-12-04 03:50:10,926 - INFO - Session file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N21\Session_1.csv
+2024-12-04 03:50:10,965 - INFO - 127.0.0.1 - - [04/Dec/2024 03:50:10] "POST / HTTP/1.1" 200 -
+2024-12-04 03:50:17,434 - INFO - Flask app started processing request.
+2024-12-04 03:50:17,435 - INFO - Selected data type: heartrate
+2024-12-04 03:50:17,435 - INFO - Selected participant: N3
+2024-12-04 03:50:17,435 - INFO - Selected session: Session_1
+2024-12-04 03:50:17,435 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N3\Session_1.csv
+2024-12-04 03:50:17,435 - INFO - Files in D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N3: ['Session_1.csv', 'Session_2.csv', 'Session_3.csv', 'Session_4.csv', 'Session_5.csv']
+2024-12-04 03:50:17,435 - INFO - Session file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N3\Session_1.csv
+2024-12-04 03:50:17,458 - INFO - 127.0.0.1 - - [04/Dec/2024 03:50:17] "POST / HTTP/1.1" 200 -
+2024-12-04 03:50:19,687 - INFO - Flask app started processing request.
+2024-12-04 03:50:19,687 - INFO - Selected data type: heartrate
+2024-12-04 03:50:19,687 - INFO - Selected participant: N4
+2024-12-04 03:50:19,687 - INFO - Selected session: Session_1
+2024-12-04 03:50:19,687 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N4\Session_1.csv
+2024-12-04 03:50:19,687 - INFO - Files in D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N4: ['Session_1.csv', 'Session_10.csv', 'Session_2.csv', 'Session_3.csv', 'Session_4.csv', 'Session_5.csv', 'Session_6.csv', 'Session_7.csv', 'Session_8.csv', 'Session_9.csv']
+2024-12-04 03:50:19,688 - INFO - Session file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N4\Session_1.csv
+2024-12-04 03:50:19,715 - INFO - 127.0.0.1 - - [04/Dec/2024 03:50:19] "POST / HTTP/1.1" 200 -
+2024-12-04 03:50:23,003 - INFO - Flask app started processing request.
+2024-12-04 03:50:23,003 - INFO - Selected data type: heartrate
+2024-12-04 03:50:23,004 - INFO - Selected participant: N4000
+2024-12-04 03:50:23,004 - INFO - Selected session: Session_1
+2024-12-04 03:50:23,004 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N4000\Session_1.csv
+2024-12-04 03:50:23,004 - INFO - Files in D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N4000: ['Session_1.csv']
+2024-12-04 03:50:23,004 - INFO - Session file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N4000\Session_1.csv
+2024-12-04 03:50:23,031 - INFO - 127.0.0.1 - - [04/Dec/2024 03:50:23] "POST / HTTP/1.1" 200 -
+2024-12-04 03:50:25,805 - INFO - Flask app started processing request.
+2024-12-04 03:50:25,805 - INFO - Selected data type: heartrate
+2024-12-04 03:50:25,805 - INFO - Selected participant: N5
+2024-12-04 03:50:25,805 - INFO - Selected session: Session_1
+2024-12-04 03:50:25,806 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N5\Session_1.csv
+2024-12-04 03:50:25,806 - INFO - Files in D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N5: ['Session_1.csv', 'Session_2.csv', 'Session_3.csv', 'Session_4.csv', 'Session_5.csv', 'Session_6.csv', 'Session_7.csv', 'Session_8.csv', 'Session_9.csv']
+2024-12-04 03:50:25,806 - INFO - Session file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N5\Session_1.csv
+2024-12-04 03:50:25,836 - INFO - 127.0.0.1 - - [04/Dec/2024 03:50:25] "POST / HTTP/1.1" 200 -
+2024-12-04 03:50:31,476 - INFO - Flask app started processing request.
+2024-12-04 03:50:31,476 - INFO - Selected data type: heartrate
+2024-12-04 03:50:31,476 - INFO - Selected participant: N5
+2024-12-04 03:50:31,476 - INFO - Selected session: Session_2
+2024-12-04 03:50:31,477 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N5\Session_2.csv
+2024-12-04 03:50:31,477 - INFO - Files in D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N5: ['Session_1.csv', 'Session_2.csv', 'Session_3.csv', 'Session_4.csv', 'Session_5.csv', 'Session_6.csv', 'Session_7.csv', 'Session_8.csv', 'Session_9.csv']
+2024-12-04 03:50:31,477 - INFO - Session file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N5\Session_2.csv
+2024-12-04 03:50:31,549 - INFO - 127.0.0.1 - - [04/Dec/2024 03:50:31] "POST / HTTP/1.1" 200 -
+2024-12-04 03:50:33,048 - INFO - Flask app started processing request.
+2024-12-04 03:50:33,048 - INFO - Selected data type: heartrate
+2024-12-04 03:50:33,048 - INFO - Selected participant: N5
+2024-12-04 03:50:33,048 - INFO - Selected session: Session_4
+2024-12-04 03:50:33,048 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N5\Session_4.csv
+2024-12-04 03:50:33,048 - INFO - Files in D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N5: ['Session_1.csv', 'Session_2.csv', 'Session_3.csv', 'Session_4.csv', 'Session_5.csv', 'Session_6.csv', 'Session_7.csv', 'Session_8.csv', 'Session_9.csv']
+2024-12-04 03:50:33,048 - INFO - Session file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N5\Session_4.csv
+2024-12-04 03:50:33,073 - INFO - 127.0.0.1 - - [04/Dec/2024 03:50:33] "POST / HTTP/1.1" 200 -
+2024-12-04 03:50:53,091 - INFO - Flask app started processing request.
+2024-12-04 03:50:53,091 - INFO - Selected data type: heartrate
+2024-12-04 03:50:53,091 - INFO - Selected participant: N5
+2024-12-04 03:50:53,091 - INFO - Selected session: Session_5
+2024-12-04 03:50:53,091 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N5\Session_5.csv
+2024-12-04 03:50:53,091 - INFO - Files in D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N5: ['Session_1.csv', 'Session_2.csv', 'Session_3.csv', 'Session_4.csv', 'Session_5.csv', 'Session_6.csv', 'Session_7.csv', 'Session_8.csv', 'Session_9.csv']
+2024-12-04 03:50:53,092 - INFO - Session file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N5\Session_5.csv
+2024-12-04 03:50:53,124 - INFO - 127.0.0.1 - - [04/Dec/2024 03:50:53] "POST / HTTP/1.1" 200 -
+2024-12-04 03:50:54,970 - INFO - Flask app started processing request.
+2024-12-04 03:50:54,970 - INFO - Selected data type: heartrate
+2024-12-04 03:50:54,970 - INFO - Selected participant: N5
+2024-12-04 03:50:54,970 - INFO - Selected session: Session_6
+2024-12-04 03:50:54,970 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N5\Session_6.csv
+2024-12-04 03:50:54,971 - INFO - Files in D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N5: ['Session_1.csv', 'Session_2.csv', 'Session_3.csv', 'Session_4.csv', 'Session_5.csv', 'Session_6.csv', 'Session_7.csv', 'Session_8.csv', 'Session_9.csv']
+2024-12-04 03:50:54,971 - INFO - Session file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N5\Session_6.csv
+2024-12-04 03:50:55,004 - INFO - 127.0.0.1 - - [04/Dec/2024 03:50:55] "POST / HTTP/1.1" 200 -
+2024-12-04 03:50:56,579 - INFO - Flask app started processing request.
+2024-12-04 03:50:56,580 - INFO - Selected data type: heartrate
+2024-12-04 03:50:56,580 - INFO - Selected participant: N5
+2024-12-04 03:50:56,580 - INFO - Selected session: Session_7
+2024-12-04 03:50:56,580 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N5\Session_7.csv
+2024-12-04 03:50:56,580 - INFO - Files in D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N5: ['Session_1.csv', 'Session_2.csv', 'Session_3.csv', 'Session_4.csv', 'Session_5.csv', 'Session_6.csv', 'Session_7.csv', 'Session_8.csv', 'Session_9.csv']
+2024-12-04 03:50:56,581 - INFO - Session file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N5\Session_7.csv
+2024-12-04 03:50:56,621 - INFO - 127.0.0.1 - - [04/Dec/2024 03:50:56] "POST / HTTP/1.1" 200 -
+2024-12-04 03:51:01,131 - INFO - Flask app started processing request.
+2024-12-04 03:51:01,131 - INFO - Selected data type: heartrate
+2024-12-04 03:51:01,131 - INFO - Selected participant: N5
+2024-12-04 03:51:01,131 - INFO - Selected session: Session_8
+2024-12-04 03:51:01,131 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N5\Session_8.csv
+2024-12-04 03:51:01,131 - INFO - Files in D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N5: ['Session_1.csv', 'Session_2.csv', 'Session_3.csv', 'Session_4.csv', 'Session_5.csv', 'Session_6.csv', 'Session_7.csv', 'Session_8.csv', 'Session_9.csv']
+2024-12-04 03:51:01,132 - INFO - Session file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N5\Session_8.csv
+2024-12-04 03:51:01,160 - INFO - 127.0.0.1 - - [04/Dec/2024 03:51:01] "POST / HTTP/1.1" 200 -
+2024-12-04 03:51:03,437 - INFO - Flask app started processing request.
+2024-12-04 03:51:03,437 - INFO - Selected data type: heartrate
+2024-12-04 03:51:03,437 - INFO - Selected participant: N5
+2024-12-04 03:51:03,438 - INFO - Selected session: Session_9
+2024-12-04 03:51:03,438 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N5\Session_9.csv
+2024-12-04 03:51:03,438 - INFO - Files in D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N5: ['Session_1.csv', 'Session_2.csv', 'Session_3.csv', 'Session_4.csv', 'Session_5.csv', 'Session_6.csv', 'Session_7.csv', 'Session_8.csv', 'Session_9.csv']
+2024-12-04 03:51:03,438 - INFO - Session file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N5\Session_9.csv
+2024-12-04 03:51:03,469 - INFO - 127.0.0.1 - - [04/Dec/2024 03:51:03] "POST / HTTP/1.1" 200 -
+2024-12-04 03:51:18,076 - INFO - Flask app started processing request.
+2024-12-04 03:51:18,076 - INFO - Selected data type: heartrate
+2024-12-04 03:51:18,076 - INFO - Selected participant: N6
+2024-12-04 03:51:18,076 - INFO - Selected session: Session_9
+2024-12-04 03:51:18,077 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N6\Session_9.csv
+2024-12-04 03:51:18,077 - INFO - Files in D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N6: ['Session_1.csv', 'Session_10.csv', 'Session_11.csv', 'Session_12.csv', 'Session_13.csv', 'Session_2.csv', 'Session_3.csv', 'Session_4.csv', 'Session_5.csv', 'Session_6.csv', 'Session_7.csv', 'Session_8.csv', 'Session_9.csv']
+2024-12-04 03:51:18,077 - INFO - Session file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N6\Session_9.csv
+2024-12-04 03:51:18,106 - INFO - 127.0.0.1 - - [04/Dec/2024 03:51:18] "POST / HTTP/1.1" 200 -
+2024-12-04 03:51:21,234 - INFO - Flask app started processing request.
+2024-12-04 03:51:21,235 - INFO - Selected data type: heartrate
+2024-12-04 03:51:21,235 - INFO - Selected participant: N6
+2024-12-04 03:51:21,235 - INFO - Selected session: Session_8
+2024-12-04 03:51:21,235 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N6\Session_8.csv
+2024-12-04 03:51:21,235 - INFO - Files in D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N6: ['Session_1.csv', 'Session_10.csv', 'Session_11.csv', 'Session_12.csv', 'Session_13.csv', 'Session_2.csv', 'Session_3.csv', 'Session_4.csv', 'Session_5.csv', 'Session_6.csv', 'Session_7.csv', 'Session_8.csv', 'Session_9.csv']
+2024-12-04 03:51:21,235 - INFO - Session file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N6\Session_8.csv
+2024-12-04 03:51:21,261 - INFO - 127.0.0.1 - - [04/Dec/2024 03:51:21] "POST / HTTP/1.1" 200 -
+2024-12-04 03:51:22,938 - INFO - Flask app started processing request.
+2024-12-04 03:51:22,938 - INFO - Selected data type: heartrate
+2024-12-04 03:51:22,938 - INFO - Selected participant: N6
+2024-12-04 03:51:22,938 - INFO - Selected session: Session_1
+2024-12-04 03:51:22,938 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N6\Session_1.csv
+2024-12-04 03:51:22,939 - INFO - Files in D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N6: ['Session_1.csv', 'Session_10.csv', 'Session_11.csv', 'Session_12.csv', 'Session_13.csv', 'Session_2.csv', 'Session_3.csv', 'Session_4.csv', 'Session_5.csv', 'Session_6.csv', 'Session_7.csv', 'Session_8.csv', 'Session_9.csv']
+2024-12-04 03:51:22,939 - INFO - Session file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N6\Session_1.csv
+2024-12-04 03:51:22,966 - INFO - 127.0.0.1 - - [04/Dec/2024 03:51:22] "POST / HTTP/1.1" 200 -
+2024-12-04 03:51:24,023 - INFO - Flask app started processing request.
+2024-12-04 03:51:24,024 - INFO - Selected data type: heartrate
+2024-12-04 03:51:24,024 - INFO - Selected participant: N6
+2024-12-04 03:51:24,024 - INFO - Selected session: Session_10
+2024-12-04 03:51:24,024 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N6\Session_10.csv
+2024-12-04 03:51:24,024 - INFO - Files in D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N6: ['Session_1.csv', 'Session_10.csv', 'Session_11.csv', 'Session_12.csv', 'Session_13.csv', 'Session_2.csv', 'Session_3.csv', 'Session_4.csv', 'Session_5.csv', 'Session_6.csv', 'Session_7.csv', 'Session_8.csv', 'Session_9.csv']
+2024-12-04 03:51:24,024 - INFO - Session file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N6\Session_10.csv
+2024-12-04 03:51:24,057 - INFO - 127.0.0.1 - - [04/Dec/2024 03:51:24] "POST / HTTP/1.1" 200 -
+2024-12-04 03:51:25,262 - INFO - Flask app started processing request.
+2024-12-04 03:51:25,262 - INFO - Selected data type: heartrate
+2024-12-04 03:51:25,262 - INFO - Selected participant: N6
+2024-12-04 03:51:25,262 - INFO - Selected session: Session_11
+2024-12-04 03:51:25,262 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N6\Session_11.csv
+2024-12-04 03:51:25,263 - INFO - Files in D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N6: ['Session_1.csv', 'Session_10.csv', 'Session_11.csv', 'Session_12.csv', 'Session_13.csv', 'Session_2.csv', 'Session_3.csv', 'Session_4.csv', 'Session_5.csv', 'Session_6.csv', 'Session_7.csv', 'Session_8.csv', 'Session_9.csv']
+2024-12-04 03:51:25,263 - INFO - Session file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N6\Session_11.csv
+2024-12-04 03:51:25,290 - INFO - 127.0.0.1 - - [04/Dec/2024 03:51:25] "POST / HTTP/1.1" 200 -
+2024-12-04 03:51:26,545 - INFO - Flask app started processing request.
+2024-12-04 03:51:26,545 - INFO - Selected data type: heartrate
+2024-12-04 03:51:26,545 - INFO - Selected participant: N6
+2024-12-04 03:51:26,545 - INFO - Selected session: Session_13
+2024-12-04 03:51:26,545 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N6\Session_13.csv
+2024-12-04 03:51:26,545 - INFO - Files in D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N6: ['Session_1.csv', 'Session_10.csv', 'Session_11.csv', 'Session_12.csv', 'Session_13.csv', 'Session_2.csv', 'Session_3.csv', 'Session_4.csv', 'Session_5.csv', 'Session_6.csv', 'Session_7.csv', 'Session_8.csv', 'Session_9.csv']
+2024-12-04 03:51:26,546 - INFO - Session file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N6\Session_13.csv
+2024-12-04 03:51:26,574 - INFO - 127.0.0.1 - - [04/Dec/2024 03:51:26] "POST / HTTP/1.1" 200 -
+2024-12-04 03:51:27,982 - INFO - Flask app started processing request.
+2024-12-04 03:51:27,982 - INFO - Selected data type: heartrate
+2024-12-04 03:51:27,982 - INFO - Selected participant: N6
+2024-12-04 03:51:27,982 - INFO - Selected session: Session_2
+2024-12-04 03:51:27,982 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N6\Session_2.csv
+2024-12-04 03:51:27,983 - INFO - Files in D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N6: ['Session_1.csv', 'Session_10.csv', 'Session_11.csv', 'Session_12.csv', 'Session_13.csv', 'Session_2.csv', 'Session_3.csv', 'Session_4.csv', 'Session_5.csv', 'Session_6.csv', 'Session_7.csv', 'Session_8.csv', 'Session_9.csv']
+2024-12-04 03:51:27,983 - INFO - Session file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N6\Session_2.csv
+2024-12-04 03:51:28,016 - INFO - 127.0.0.1 - - [04/Dec/2024 03:51:28] "POST / HTTP/1.1" 200 -
+2024-12-04 03:51:31,251 - INFO - Flask app started processing request.
+2024-12-04 03:51:31,252 - INFO - Selected data type: heartrate
+2024-12-04 03:51:31,252 - INFO - Selected participant: N6
+2024-12-04 03:51:31,252 - INFO - Selected session: Session_3
+2024-12-04 03:51:31,252 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N6\Session_3.csv
+2024-12-04 03:51:31,252 - INFO - Files in D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N6: ['Session_1.csv', 'Session_10.csv', 'Session_11.csv', 'Session_12.csv', 'Session_13.csv', 'Session_2.csv', 'Session_3.csv', 'Session_4.csv', 'Session_5.csv', 'Session_6.csv', 'Session_7.csv', 'Session_8.csv', 'Session_9.csv']
+2024-12-04 03:51:31,252 - INFO - Session file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N6\Session_3.csv
+2024-12-04 03:51:31,281 - INFO - 127.0.0.1 - - [04/Dec/2024 03:51:31] "POST / HTTP/1.1" 200 -
+2024-12-04 03:51:34,698 - INFO - Flask app started processing request.
+2024-12-04 03:51:34,698 - INFO - Selected data type: heartrate
+2024-12-04 03:51:34,698 - INFO - Selected participant: N6
+2024-12-04 03:51:34,698 - INFO - Selected session: Session_4
+2024-12-04 03:51:34,698 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N6\Session_4.csv
+2024-12-04 03:51:34,698 - INFO - Files in D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N6: ['Session_1.csv', 'Session_10.csv', 'Session_11.csv', 'Session_12.csv', 'Session_13.csv', 'Session_2.csv', 'Session_3.csv', 'Session_4.csv', 'Session_5.csv', 'Session_6.csv', 'Session_7.csv', 'Session_8.csv', 'Session_9.csv']
+2024-12-04 03:51:34,699 - INFO - Session file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N6\Session_4.csv
+2024-12-04 03:51:34,727 - INFO - 127.0.0.1 - - [04/Dec/2024 03:51:34] "POST / HTTP/1.1" 200 -
+2024-12-04 03:51:36,851 - INFO - Flask app started processing request.
+2024-12-04 03:51:36,851 - INFO - Selected data type: heartrate
+2024-12-04 03:51:36,851 - INFO - Selected participant: N6
+2024-12-04 03:51:36,851 - INFO - Selected session: Session_5
+2024-12-04 03:51:36,851 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N6\Session_5.csv
+2024-12-04 03:51:36,852 - INFO - Files in D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N6: ['Session_1.csv', 'Session_10.csv', 'Session_11.csv', 'Session_12.csv', 'Session_13.csv', 'Session_2.csv', 'Session_3.csv', 'Session_4.csv', 'Session_5.csv', 'Session_6.csv', 'Session_7.csv', 'Session_8.csv', 'Session_9.csv']
+2024-12-04 03:51:36,852 - INFO - Session file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N6\Session_5.csv
+2024-12-04 03:51:36,884 - INFO - 127.0.0.1 - - [04/Dec/2024 03:51:36] "POST / HTTP/1.1" 200 -
+2024-12-04 03:51:38,789 - INFO - Flask app started processing request.
+2024-12-04 03:51:38,789 - INFO - Selected data type: heartrate
+2024-12-04 03:51:38,789 - INFO - Selected participant: N6
+2024-12-04 03:51:38,789 - INFO - Selected session: Session_7
+2024-12-04 03:51:38,789 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N6\Session_7.csv
+2024-12-04 03:51:38,789 - INFO - Files in D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N6: ['Session_1.csv', 'Session_10.csv', 'Session_11.csv', 'Session_12.csv', 'Session_13.csv', 'Session_2.csv', 'Session_3.csv', 'Session_4.csv', 'Session_5.csv', 'Session_6.csv', 'Session_7.csv', 'Session_8.csv', 'Session_9.csv']
+2024-12-04 03:51:38,789 - INFO - Session file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N6\Session_7.csv
+2024-12-04 03:51:38,819 - INFO - 127.0.0.1 - - [04/Dec/2024 03:51:38] "POST / HTTP/1.1" 200 -
+2024-12-04 03:56:09,344 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-04 03:56:09,344 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-04 03:56:14,881 - INFO - Flask app started processing request.
+2024-12-04 03:56:14,881 - INFO - Selected data type: heartrate
+2024-12-04 03:56:14,881 - INFO - Selected participant: N6
+2024-12-04 03:56:14,881 - INFO - Selected session: Session_7
+2024-12-04 03:56:16,917 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N6\Session_7.csv
+2024-12-04 03:56:16,917 - INFO - Files in D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N6: ['Session_1.csv', 'Session_10.csv', 'Session_11.csv', 'Session_12.csv', 'Session_13.csv', 'Session_2.csv', 'Session_3.csv', 'Session_4.csv', 'Session_5.csv', 'Session_6.csv', 'Session_7.csv', 'Session_8.csv', 'Session_9.csv']
+2024-12-04 03:56:16,917 - INFO - Session file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N6\Session_7.csv
+2024-12-04 03:56:17,202 - INFO - 127.0.0.1 - - [04/Dec/2024 03:56:17] "POST / HTTP/1.1" 200 -
+2024-12-04 03:56:22,853 - INFO - Flask app started processing request.
+2024-12-04 03:56:22,854 - INFO - Selected data type: heartrate
+2024-12-04 03:56:22,854 - INFO - Selected participant: N6
+2024-12-04 03:56:22,854 - INFO - Selected session: Session_1
+2024-12-04 03:56:24,582 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N6\Session_1.csv
+2024-12-04 03:56:24,582 - INFO - Files in D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N6: ['Session_1.csv', 'Session_10.csv', 'Session_11.csv', 'Session_12.csv', 'Session_13.csv', 'Session_2.csv', 'Session_3.csv', 'Session_4.csv', 'Session_5.csv', 'Session_6.csv', 'Session_7.csv', 'Session_8.csv', 'Session_9.csv']
+2024-12-04 03:56:24,582 - INFO - Session file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N6\Session_1.csv
+2024-12-04 03:56:24,604 - INFO - 127.0.0.1 - - [04/Dec/2024 03:56:24] "POST / HTTP/1.1" 200 -
+2024-12-04 03:56:26,750 - INFO - Flask app started processing request.
+2024-12-04 03:56:26,751 - INFO - Selected data type: heartrate
+2024-12-04 03:56:26,751 - INFO - Selected participant: N6
+2024-12-04 03:56:26,751 - INFO - Selected session: Session_11
+2024-12-04 03:56:28,419 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N6\Session_11.csv
+2024-12-04 03:56:28,419 - INFO - Files in D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N6: ['Session_1.csv', 'Session_10.csv', 'Session_11.csv', 'Session_12.csv', 'Session_13.csv', 'Session_2.csv', 'Session_3.csv', 'Session_4.csv', 'Session_5.csv', 'Session_6.csv', 'Session_7.csv', 'Session_8.csv', 'Session_9.csv']
+2024-12-04 03:56:28,419 - INFO - Session file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N6\Session_11.csv
+2024-12-04 03:56:28,438 - INFO - 127.0.0.1 - - [04/Dec/2024 03:56:28] "POST / HTTP/1.1" 200 -
+2024-12-04 03:56:30,468 - INFO - Flask app started processing request.
+2024-12-04 03:56:30,469 - INFO - Selected data type: heartrate
+2024-12-04 03:56:30,469 - INFO - Selected participant: N6
+2024-12-04 03:56:30,469 - INFO - Selected session: Session_2
+2024-12-04 03:56:32,138 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N6\Session_2.csv
+2024-12-04 03:56:32,138 - INFO - Files in D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N6: ['Session_1.csv', 'Session_10.csv', 'Session_11.csv', 'Session_12.csv', 'Session_13.csv', 'Session_2.csv', 'Session_3.csv', 'Session_4.csv', 'Session_5.csv', 'Session_6.csv', 'Session_7.csv', 'Session_8.csv', 'Session_9.csv']
+2024-12-04 03:56:32,139 - INFO - Session file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N6\Session_2.csv
+2024-12-04 03:56:32,167 - INFO - 127.0.0.1 - - [04/Dec/2024 03:56:32] "POST / HTTP/1.1" 200 -
+2024-12-04 03:56:35,204 - INFO - Flask app started processing request.
+2024-12-04 03:56:35,204 - INFO - Selected data type: heartrate
+2024-12-04 03:56:35,204 - INFO - Selected participant: N6
+2024-12-04 03:56:35,204 - INFO - Selected session: Session_4
+2024-12-04 03:56:36,967 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N6\Session_4.csv
+2024-12-04 03:56:36,967 - INFO - Files in D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N6: ['Session_1.csv', 'Session_10.csv', 'Session_11.csv', 'Session_12.csv', 'Session_13.csv', 'Session_2.csv', 'Session_3.csv', 'Session_4.csv', 'Session_5.csv', 'Session_6.csv', 'Session_7.csv', 'Session_8.csv', 'Session_9.csv']
+2024-12-04 03:56:36,967 - INFO - Session file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N6\Session_4.csv
+2024-12-04 03:56:36,986 - INFO - 127.0.0.1 - - [04/Dec/2024 03:56:36] "POST / HTTP/1.1" 200 -
+2024-12-04 03:56:41,977 - INFO - Flask app started processing request.
+2024-12-04 03:56:41,977 - INFO - Selected data type: heartrate
+2024-12-04 03:56:41,978 - INFO - Selected participant: N6
+2024-12-04 03:56:41,978 - INFO - Selected session: Session_8
+2024-12-04 03:56:43,655 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N6\Session_8.csv
+2024-12-04 03:56:43,655 - INFO - Files in D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N6: ['Session_1.csv', 'Session_10.csv', 'Session_11.csv', 'Session_12.csv', 'Session_13.csv', 'Session_2.csv', 'Session_3.csv', 'Session_4.csv', 'Session_5.csv', 'Session_6.csv', 'Session_7.csv', 'Session_8.csv', 'Session_9.csv']
+2024-12-04 03:56:43,655 - INFO - Session file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N6\Session_8.csv
+2024-12-04 03:56:43,673 - INFO - 127.0.0.1 - - [04/Dec/2024 03:56:43] "POST / HTTP/1.1" 200 -
+2024-12-04 03:57:01,264 - INFO - Flask app started processing request.
+2024-12-04 03:57:01,264 - INFO - Selected data type: heartrate
+2024-12-04 03:57:01,264 - INFO - Selected participant: N6
+2024-12-04 03:57:01,264 - INFO - Selected session: Session_1
+2024-12-04 03:57:02,951 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N6\Session_1.csv
+2024-12-04 03:57:02,951 - INFO - Files in D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N6: ['Session_1.csv', 'Session_10.csv', 'Session_11.csv', 'Session_12.csv', 'Session_13.csv', 'Session_2.csv', 'Session_3.csv', 'Session_4.csv', 'Session_5.csv', 'Session_6.csv', 'Session_7.csv', 'Session_8.csv', 'Session_9.csv']
+2024-12-04 03:57:02,951 - INFO - Session file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N6\Session_1.csv
+2024-12-04 03:57:02,971 - INFO - 127.0.0.1 - - [04/Dec/2024 03:57:02] "POST / HTTP/1.1" 200 -
+2024-12-04 03:57:05,878 - INFO - Flask app started processing request.
+2024-12-04 03:57:05,878 - INFO - Selected data type: heartrate
+2024-12-04 03:57:05,878 - INFO - Selected participant: N6
+2024-12-04 03:57:05,879 - INFO - Selected session: Session_2
+2024-12-04 03:57:07,576 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N6\Session_2.csv
+2024-12-04 03:57:07,576 - INFO - Files in D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N6: ['Session_1.csv', 'Session_10.csv', 'Session_11.csv', 'Session_12.csv', 'Session_13.csv', 'Session_2.csv', 'Session_3.csv', 'Session_4.csv', 'Session_5.csv', 'Session_6.csv', 'Session_7.csv', 'Session_8.csv', 'Session_9.csv']
+2024-12-04 03:57:07,576 - INFO - Session file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N6\Session_2.csv
+2024-12-04 03:57:07,598 - INFO - 127.0.0.1 - - [04/Dec/2024 03:57:07] "POST / HTTP/1.1" 200 -
+2024-12-04 03:57:10,884 - INFO - Flask app started processing request.
+2024-12-04 03:57:10,884 - INFO - Selected data type: heartrate
+2024-12-04 03:57:10,884 - INFO - Selected participant: N6
+2024-12-04 03:57:10,884 - INFO - Selected session: Session_3
+2024-12-04 03:57:12,594 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N6\Session_3.csv
+2024-12-04 03:57:12,595 - INFO - Files in D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N6: ['Session_1.csv', 'Session_10.csv', 'Session_11.csv', 'Session_12.csv', 'Session_13.csv', 'Session_2.csv', 'Session_3.csv', 'Session_4.csv', 'Session_5.csv', 'Session_6.csv', 'Session_7.csv', 'Session_8.csv', 'Session_9.csv']
+2024-12-04 03:57:12,595 - INFO - Session file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N6\Session_3.csv
+2024-12-04 03:57:12,614 - INFO - 127.0.0.1 - - [04/Dec/2024 03:57:12] "POST / HTTP/1.1" 200 -
+2024-12-04 03:57:15,763 - INFO - Flask app started processing request.
+2024-12-04 03:57:15,763 - INFO - Selected data type: heartrate
+2024-12-04 03:57:15,763 - INFO - Selected participant: N6
+2024-12-04 03:57:15,763 - INFO - Selected session: Session_4
+2024-12-04 03:57:17,470 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N6\Session_4.csv
+2024-12-04 03:57:17,470 - INFO - Files in D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N6: ['Session_1.csv', 'Session_10.csv', 'Session_11.csv', 'Session_12.csv', 'Session_13.csv', 'Session_2.csv', 'Session_3.csv', 'Session_4.csv', 'Session_5.csv', 'Session_6.csv', 'Session_7.csv', 'Session_8.csv', 'Session_9.csv']
+2024-12-04 03:57:17,470 - INFO - Session file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N6\Session_4.csv
+2024-12-04 03:57:17,489 - INFO - 127.0.0.1 - - [04/Dec/2024 03:57:17] "POST / HTTP/1.1" 200 -
+2024-12-04 03:57:19,880 - INFO - Flask app started processing request.
+2024-12-04 03:57:19,880 - INFO - Selected data type: heartrate
+2024-12-04 03:57:19,880 - INFO - Selected participant: N6
+2024-12-04 03:57:19,880 - INFO - Selected session: Session_1
+2024-12-04 03:57:21,569 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N6\Session_1.csv
+2024-12-04 03:57:21,569 - INFO - Files in D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N6: ['Session_1.csv', 'Session_10.csv', 'Session_11.csv', 'Session_12.csv', 'Session_13.csv', 'Session_2.csv', 'Session_3.csv', 'Session_4.csv', 'Session_5.csv', 'Session_6.csv', 'Session_7.csv', 'Session_8.csv', 'Session_9.csv']
+2024-12-04 03:57:21,569 - INFO - Session file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N6\Session_1.csv
+2024-12-04 03:57:21,589 - INFO - 127.0.0.1 - - [04/Dec/2024 03:57:21] "POST / HTTP/1.1" 200 -
+2024-12-04 03:57:24,675 - INFO - Flask app started processing request.
+2024-12-04 03:57:24,676 - INFO - Selected data type: heartrate
+2024-12-04 03:57:24,676 - INFO - Selected participant: N6
+2024-12-04 03:57:24,677 - INFO - Selected session: Session_11
+2024-12-04 03:57:26,360 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N6\Session_11.csv
+2024-12-04 03:57:26,360 - INFO - Files in D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N6: ['Session_1.csv', 'Session_10.csv', 'Session_11.csv', 'Session_12.csv', 'Session_13.csv', 'Session_2.csv', 'Session_3.csv', 'Session_4.csv', 'Session_5.csv', 'Session_6.csv', 'Session_7.csv', 'Session_8.csv', 'Session_9.csv']
+2024-12-04 03:57:26,360 - INFO - Session file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N6\Session_11.csv
+2024-12-04 03:57:26,383 - INFO - 127.0.0.1 - - [04/Dec/2024 03:57:26] "POST / HTTP/1.1" 200 -
+2024-12-04 03:57:35,996 - INFO - Flask app started processing request.
+2024-12-04 03:57:35,996 - INFO - Selected data type: heartrate
+2024-12-04 03:57:35,997 - INFO - Selected participant: N6
+2024-12-04 03:57:35,997 - INFO - Selected session: Session_12
+2024-12-04 03:57:37,731 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N6\Session_12.csv
+2024-12-04 03:57:37,731 - INFO - Files in D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N6: ['Session_1.csv', 'Session_10.csv', 'Session_11.csv', 'Session_12.csv', 'Session_13.csv', 'Session_2.csv', 'Session_3.csv', 'Session_4.csv', 'Session_5.csv', 'Session_6.csv', 'Session_7.csv', 'Session_8.csv', 'Session_9.csv']
+2024-12-04 03:57:37,731 - INFO - Session file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N6\Session_12.csv
+2024-12-04 03:57:37,760 - INFO - 127.0.0.1 - - [04/Dec/2024 03:57:37] "POST / HTTP/1.1" 200 -
+2024-12-04 03:57:42,686 - INFO - Flask app started processing request.
+2024-12-04 03:57:42,687 - INFO - Selected data type: heartrate
+2024-12-04 03:57:42,687 - INFO - Selected participant: N6
+2024-12-04 03:57:42,687 - INFO - Selected session: Session_3
+2024-12-04 03:57:44,369 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N6\Session_3.csv
+2024-12-04 03:57:44,369 - INFO - Files in D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N6: ['Session_1.csv', 'Session_10.csv', 'Session_11.csv', 'Session_12.csv', 'Session_13.csv', 'Session_2.csv', 'Session_3.csv', 'Session_4.csv', 'Session_5.csv', 'Session_6.csv', 'Session_7.csv', 'Session_8.csv', 'Session_9.csv']
+2024-12-04 03:57:44,369 - INFO - Session file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N6\Session_3.csv
+2024-12-04 03:57:44,387 - INFO - 127.0.0.1 - - [04/Dec/2024 03:57:44] "POST / HTTP/1.1" 200 -
+2024-12-04 03:57:45,706 - INFO - Flask app started processing request.
+2024-12-04 03:57:45,706 - INFO - Selected data type: heartrate
+2024-12-04 03:57:45,706 - INFO - Selected participant: N6
+2024-12-04 03:57:45,706 - INFO - Selected session: Session_1
+2024-12-04 03:57:47,410 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N6\Session_1.csv
+2024-12-04 03:57:47,410 - INFO - Files in D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N6: ['Session_1.csv', 'Session_10.csv', 'Session_11.csv', 'Session_12.csv', 'Session_13.csv', 'Session_2.csv', 'Session_3.csv', 'Session_4.csv', 'Session_5.csv', 'Session_6.csv', 'Session_7.csv', 'Session_8.csv', 'Session_9.csv']
+2024-12-04 03:57:47,411 - INFO - Session file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N6\Session_1.csv
+2024-12-04 03:57:47,430 - INFO - 127.0.0.1 - - [04/Dec/2024 03:57:47] "POST / HTTP/1.1" 200 -
+2024-12-04 03:57:55,471 - INFO - Flask app started processing request.
+2024-12-04 03:57:55,472 - INFO - Selected data type: heartrate
+2024-12-04 03:57:55,472 - INFO - Selected participant: N10
+2024-12-04 03:57:55,472 - INFO - Selected session: Session_1
+2024-12-04 03:57:57,142 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N10\Session_1.csv
+2024-12-04 03:57:57,142 - INFO - Files in D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N10: ['Session_1.csv', 'Session_2.csv', 'Session_3.csv', 'Session_4.csv', 'Session_5.csv', 'Session_6.csv', 'Session_7.csv', 'Session_8.csv', 'Session_9.csv']
+2024-12-04 03:57:57,142 - INFO - Session file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N10\Session_1.csv
+2024-12-04 03:57:57,163 - INFO - 127.0.0.1 - - [04/Dec/2024 03:57:57] "POST / HTTP/1.1" 200 -
+2024-12-04 03:57:59,117 - INFO - Flask app started processing request.
+2024-12-04 03:57:59,117 - INFO - Selected data type: heartrate
+2024-12-04 03:57:59,117 - INFO - Selected participant: N10
+2024-12-04 03:57:59,117 - INFO - Selected session: Session_2
+2024-12-04 03:58:00,849 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N10\Session_2.csv
+2024-12-04 03:58:00,850 - INFO - Files in D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N10: ['Session_1.csv', 'Session_2.csv', 'Session_3.csv', 'Session_4.csv', 'Session_5.csv', 'Session_6.csv', 'Session_7.csv', 'Session_8.csv', 'Session_9.csv']
+2024-12-04 03:58:00,850 - INFO - Session file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N10\Session_2.csv
+2024-12-04 03:58:00,869 - INFO - 127.0.0.1 - - [04/Dec/2024 03:58:00] "POST / HTTP/1.1" 200 -
+2024-12-04 03:58:03,686 - INFO - Flask app started processing request.
+2024-12-04 03:58:03,687 - INFO - Selected data type: heartrate
+2024-12-04 03:58:03,687 - INFO - Selected participant: N10
+2024-12-04 03:58:03,687 - INFO - Selected session: Session_3
+2024-12-04 03:58:05,421 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N10\Session_3.csv
+2024-12-04 03:58:05,421 - INFO - Files in D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N10: ['Session_1.csv', 'Session_2.csv', 'Session_3.csv', 'Session_4.csv', 'Session_5.csv', 'Session_6.csv', 'Session_7.csv', 'Session_8.csv', 'Session_9.csv']
+2024-12-04 03:58:05,421 - INFO - Session file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N10\Session_3.csv
+2024-12-04 03:58:05,442 - INFO - 127.0.0.1 - - [04/Dec/2024 03:58:05] "POST / HTTP/1.1" 200 -
+2024-12-04 04:05:09,514 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-04 04:05:09,514 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-04 04:05:13,968 - INFO - Flask app started processing request.
+2024-12-04 04:05:13,968 - INFO - Selected data type: heartrate
+2024-12-04 04:05:13,968 - INFO - Selected participant: N10
+2024-12-04 04:05:13,968 - INFO - Selected session: Session_3
+2024-12-04 04:05:13,968 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N10\Session_3.csv
+2024-12-04 04:05:13,969 - INFO - Files in D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N10: ['Session_1.csv', 'Session_2.csv', 'Session_3.csv', 'Session_4.csv', 'Session_5.csv', 'Session_6.csv', 'Session_7.csv', 'Session_8.csv', 'Session_9.csv']
+2024-12-04 04:05:13,969 - INFO - Session file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N10\Session_3.csv
+2024-12-04 04:05:14,698 - INFO - 127.0.0.1 - - [04/Dec/2024 04:05:14] "POST / HTTP/1.1" 200 -
+2024-12-04 04:05:18,269 - INFO - Flask app started processing request.
+2024-12-04 04:05:18,269 - INFO - Selected data type: heartrate
+2024-12-04 04:05:18,269 - INFO - Selected participant: N10
+2024-12-04 04:05:18,269 - INFO - Selected session: Session_2
+2024-12-04 04:05:18,269 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N10\Session_2.csv
+2024-12-04 04:05:18,270 - INFO - Files in D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N10: ['Session_1.csv', 'Session_2.csv', 'Session_3.csv', 'Session_4.csv', 'Session_5.csv', 'Session_6.csv', 'Session_7.csv', 'Session_8.csv', 'Session_9.csv']
+2024-12-04 04:05:18,270 - INFO - Session file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N10\Session_2.csv
+2024-12-04 04:05:18,293 - INFO - 127.0.0.1 - - [04/Dec/2024 04:05:18] "POST / HTTP/1.1" 200 -
+2024-12-04 04:05:19,613 - INFO - Flask app started processing request.
+2024-12-04 04:05:19,613 - INFO - Selected data type: heartrate
+2024-12-04 04:05:19,613 - INFO - Selected participant: N10
+2024-12-04 04:05:19,614 - INFO - Selected session: Session_3
+2024-12-04 04:05:19,614 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N10\Session_3.csv
+2024-12-04 04:05:19,614 - INFO - Files in D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N10: ['Session_1.csv', 'Session_2.csv', 'Session_3.csv', 'Session_4.csv', 'Session_5.csv', 'Session_6.csv', 'Session_7.csv', 'Session_8.csv', 'Session_9.csv']
+2024-12-04 04:05:19,614 - INFO - Session file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N10\Session_3.csv
+2024-12-04 04:05:19,638 - INFO - 127.0.0.1 - - [04/Dec/2024 04:05:19] "POST / HTTP/1.1" 200 -
+2024-12-04 04:05:21,559 - INFO - Flask app started processing request.
+2024-12-04 04:05:21,559 - INFO - Selected data type: heartrate
+2024-12-04 04:05:21,559 - INFO - Selected participant: N11
+2024-12-04 04:05:21,559 - INFO - Selected session: Session_3
+2024-12-04 04:05:21,559 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N11\Session_3.csv
+2024-12-04 04:05:21,559 - INFO - Files in D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N11: ['Session_1.csv', 'Session_2.csv', 'Session_3.csv']
+2024-12-04 04:05:21,560 - INFO - Session file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N11\Session_3.csv
+2024-12-04 04:05:21,578 - INFO - 127.0.0.1 - - [04/Dec/2024 04:05:21] "POST / HTTP/1.1" 200 -
+2024-12-04 04:05:22,751 - INFO - Flask app started processing request.
+2024-12-04 04:05:22,751 - INFO - Selected data type: heartrate
+2024-12-04 04:05:22,752 - INFO - Selected participant: N10
+2024-12-04 04:05:22,752 - INFO - Selected session: Session_3
+2024-12-04 04:05:22,752 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N10\Session_3.csv
+2024-12-04 04:05:22,752 - INFO - Files in D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N10: ['Session_1.csv', 'Session_2.csv', 'Session_3.csv', 'Session_4.csv', 'Session_5.csv', 'Session_6.csv', 'Session_7.csv', 'Session_8.csv', 'Session_9.csv']
+2024-12-04 04:05:22,752 - INFO - Session file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N10\Session_3.csv
+2024-12-04 04:05:22,776 - INFO - 127.0.0.1 - - [04/Dec/2024 04:05:22] "POST / HTTP/1.1" 200 -
+2024-12-04 04:05:24,895 - INFO - Flask app started processing request.
+2024-12-04 04:05:24,895 - INFO - Selected data type: heartrate(1)
+2024-12-04 04:05:24,895 - INFO - Selected participant: P4
+2024-12-04 04:05:24,896 - INFO - Selected session: Session_3
+2024-12-04 04:05:24,898 - INFO - 127.0.0.1 - - [04/Dec/2024 04:05:24] "POST / HTTP/1.1" 200 -
+2024-12-04 04:05:26,911 - INFO - Flask app started processing request.
+2024-12-04 04:05:26,912 - INFO - Selected data type: heartrate
+2024-12-04 04:05:26,912 - INFO - Selected participant: P4
+2024-12-04 04:05:26,912 - INFO - Selected session: Session_3
+2024-12-04 04:05:26,912 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\P4\Session_3.csv
+2024-12-04 04:05:26,912 - INFO - Files in D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\P4: ['Session_1.csv', 'Session_2.csv', 'Session_3.csv', 'Session_4.csv', 'Session_5.csv', 'Session_6.csv', 'Session_7.csv', 'Session_8.csv']
+2024-12-04 04:05:26,912 - INFO - Session file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\P4\Session_3.csv
+2024-12-04 04:05:26,934 - INFO - 127.0.0.1 - - [04/Dec/2024 04:05:26] "POST / HTTP/1.1" 200 -
+2024-12-04 04:08:05,427 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-04 04:08:05,427 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-04 04:08:09,387 - INFO - Flask app started processing request.
+2024-12-04 04:08:09,388 - INFO - Selected data type: heartrate
+2024-12-04 04:08:09,388 - INFO - Selected participant: P4
+2024-12-04 04:08:09,388 - INFO - Selected session: Session_3
+2024-12-04 04:08:11,466 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\P4\Session_3.csv
+2024-12-04 04:08:11,782 - INFO - 127.0.0.1 - - [04/Dec/2024 04:08:11] "POST / HTTP/1.1" 200 -
+2024-12-04 04:08:15,186 - INFO - Flask app started processing request.
+2024-12-04 04:08:15,186 - INFO - Selected data type: heartrate
+2024-12-04 04:08:15,186 - INFO - Selected participant: P4
+2024-12-04 04:08:15,186 - INFO - Selected session: Session_4
+2024-12-04 04:08:16,873 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\P4\Session_4.csv
+2024-12-04 04:08:16,894 - INFO - 127.0.0.1 - - [04/Dec/2024 04:08:16] "POST / HTTP/1.1" 200 -
+2024-12-04 04:08:19,780 - INFO - Flask app started processing request.
+2024-12-04 04:08:20,523 - INFO - Selected data type: heartrate
+2024-12-04 04:08:20,523 - INFO - Selected participant: P4
+2024-12-04 04:08:20,523 - INFO - Selected session: Session_7
+2024-12-04 04:08:22,203 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\P4\Session_7.csv
+2024-12-04 04:08:22,239 - INFO - 127.0.0.1 - - [04/Dec/2024 04:08:22] "POST / HTTP/1.1" 200 -
+2024-12-04 04:15:48,450 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-04 04:15:48,451 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-04 04:15:51,911 - INFO - Flask app started processing request.
+2024-12-04 04:15:51,912 - INFO - Selected data type: heartrate
+2024-12-04 04:15:51,912 - INFO - Selected participant: P4
+2024-12-04 04:15:51,912 - INFO - Selected session: Session_7
+2024-12-04 04:15:51,912 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\P4\Session_7.csv
+2024-12-04 04:15:52,594 - INFO - 127.0.0.1 - - [04/Dec/2024 04:15:52] "POST / HTTP/1.1" 200 -
+2024-12-04 04:15:57,158 - INFO - Flask app started processing request.
+2024-12-04 04:15:57,158 - INFO - Selected data type: heartrate
+2024-12-04 04:15:57,158 - INFO - Selected participant: P4
+2024-12-04 04:15:57,158 - INFO - Selected session: Session_3
+2024-12-04 04:15:57,159 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\P4\Session_3.csv
+2024-12-04 04:15:57,190 - INFO - 127.0.0.1 - - [04/Dec/2024 04:15:57] "POST / HTTP/1.1" 200 -
+2024-12-04 04:23:07,517 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-04 04:23:07,517 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-04 04:23:12,048 - INFO - Flask app started processing request.
+2024-12-04 04:23:12,049 - INFO - Selected data type: heartrate
+2024-12-04 04:23:12,049 - INFO - Selected participant: P4
+2024-12-04 04:23:12,049 - INFO - Selected session: Session_3
+2024-12-04 04:23:14,047 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\P4\Session_3\Session_3.csv
+2024-12-04 04:23:14,047 - ERROR - Session file not found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\P4\Session_3\Session_3.csv
+2024-12-04 04:23:14,053 - INFO - 127.0.0.1 - - [04/Dec/2024 04:23:14] "POST / HTTP/1.1" 200 -
+2024-12-04 04:23:18,473 - INFO - Flask app started processing request.
+2024-12-04 04:23:18,474 - INFO - Selected data type: heartrate
+2024-12-04 04:23:18,475 - INFO - Selected participant: P4
+2024-12-04 04:23:18,475 - INFO - Selected session: Session_2
+2024-12-04 04:23:20,108 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\P4\Session_2\Session_2.csv
+2024-12-04 04:23:20,108 - ERROR - Session file not found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\P4\Session_2\Session_2.csv
+2024-12-04 04:23:20,109 - INFO - 127.0.0.1 - - [04/Dec/2024 04:23:20] "POST / HTTP/1.1" 200 -
+2024-12-04 04:23:21,395 - INFO - Flask app started processing request.
+2024-12-04 04:23:21,395 - INFO - Selected data type: heartrate
+2024-12-04 04:23:21,395 - INFO - Selected participant: P4
+2024-12-04 04:23:21,395 - INFO - Selected session: Session_1
+2024-12-04 04:23:23,091 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\P4\Session_1\Session_1.csv
+2024-12-04 04:23:23,092 - ERROR - Session file not found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\P4\Session_1\Session_1.csv
+2024-12-04 04:23:23,092 - INFO - 127.0.0.1 - - [04/Dec/2024 04:23:23] "POST / HTTP/1.1" 200 -
+2024-12-04 04:23:24,446 - INFO - Flask app started processing request.
+2024-12-04 04:23:24,447 - INFO - Selected data type: heartrate
+2024-12-04 04:23:24,447 - INFO - Selected participant: P4
+2024-12-04 04:23:24,447 - INFO - Selected session: Session_4
+2024-12-04 04:23:26,183 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\P4\Session_4\Session_4.csv
+2024-12-04 04:23:26,183 - ERROR - Session file not found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\P4\Session_4\Session_4.csv
+2024-12-04 04:23:26,183 - INFO - 127.0.0.1 - - [04/Dec/2024 04:23:26] "POST / HTTP/1.1" 200 -
+2024-12-04 04:26:27,133 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-04 04:26:27,133 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-04 04:26:30,552 - INFO - Flask app started processing request.
+2024-12-04 04:26:30,553 - INFO - Selected data type: heartrate
+2024-12-04 04:26:30,553 - INFO - Selected participant: P4
+2024-12-04 04:26:30,553 - INFO - Selected session: Session_4
+2024-12-04 04:26:30,553 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\P4\Session_4.csv
+2024-12-04 04:26:30,561 - WARNING - No metadata file found for session: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\P4\Session_4_metadata.csv
+2024-12-04 04:26:31,245 - INFO - 127.0.0.1 - - [04/Dec/2024 04:26:31] "POST / HTTP/1.1" 200 -
+2024-12-04 04:26:34,529 - INFO - Flask app started processing request.
+2024-12-04 04:26:34,529 - INFO - Selected data type: heartrate
+2024-12-04 04:26:34,531 - INFO - Selected participant: P4
+2024-12-04 04:26:34,531 - INFO - Selected session: Session_2
+2024-12-04 04:26:34,531 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\P4\Session_2.csv
+2024-12-04 04:26:34,541 - WARNING - No metadata file found for session: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\P4\Session_2_metadata.csv
+2024-12-04 04:26:34,558 - INFO - 127.0.0.1 - - [04/Dec/2024 04:26:34] "POST / HTTP/1.1" 200 -
+2024-12-04 04:26:35,825 - INFO - Flask app started processing request.
+2024-12-04 04:26:35,828 - INFO - Selected data type: heartrate
+2024-12-04 04:26:35,828 - INFO - Selected participant: P4
+2024-12-04 04:26:35,828 - INFO - Selected session: Session_1
+2024-12-04 04:26:35,828 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\P4\Session_1.csv
+2024-12-04 04:26:35,836 - WARNING - No metadata file found for session: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\P4\Session_1_metadata.csv
+2024-12-04 04:26:35,853 - INFO - 127.0.0.1 - - [04/Dec/2024 04:26:35] "POST / HTTP/1.1" 200 -
+2024-12-04 04:26:37,028 - INFO - Flask app started processing request.
+2024-12-04 04:26:37,028 - INFO - Selected data type: heartrate
+2024-12-04 04:26:37,028 - INFO - Selected participant: P4
+2024-12-04 04:26:37,028 - INFO - Selected session: Session_4
+2024-12-04 04:26:37,028 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\P4\Session_4.csv
+2024-12-04 04:26:37,035 - WARNING - No metadata file found for session: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\P4\Session_4_metadata.csv
+2024-12-04 04:26:37,055 - INFO - 127.0.0.1 - - [04/Dec/2024 04:26:37] "POST / HTTP/1.1" 200 -
+2024-12-04 04:31:05,376 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-04 04:31:05,376 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-04 04:31:09,329 - INFO - Flask app started processing request.
+2024-12-04 04:31:09,330 - INFO - Selected data type: heartrate
+2024-12-04 04:31:09,330 - INFO - Selected participant: P4
+2024-12-04 04:31:09,330 - INFO - Selected session: Session_4
+2024-12-04 04:31:09,330 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\P4\Session_4.csv
+2024-12-04 04:31:09,339 - INFO - Metadata file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\P4\Session_4\Session_4_metadata.csv
+2024-12-04 04:31:10,002 - INFO - 127.0.0.1 - - [04/Dec/2024 04:31:10] "POST / HTTP/1.1" 200 -
+2024-12-04 04:31:15,922 - INFO - Flask app started processing request.
+2024-12-04 04:31:15,923 - INFO - Selected data type: heartrate
+2024-12-04 04:31:15,923 - INFO - Selected participant: P4
+2024-12-04 04:31:15,923 - INFO - Selected session: Session_3
+2024-12-04 04:31:15,923 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\P4\Session_3.csv
+2024-12-04 04:31:15,928 - INFO - Metadata file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\P4\Session_3\Session_3_metadata.csv
+2024-12-04 04:31:15,964 - INFO - 127.0.0.1 - - [04/Dec/2024 04:31:15] "POST / HTTP/1.1" 200 -
+2024-12-04 04:31:22,542 - INFO - Flask app started processing request.
+2024-12-04 04:31:22,542 - INFO - Selected data type: heartrate
+2024-12-04 04:31:22,542 - INFO - Selected participant: P4
+2024-12-04 04:31:22,542 - INFO - Selected session: Session_1
+2024-12-04 04:31:22,542 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\P4\Session_1.csv
+2024-12-04 04:31:22,548 - INFO - Metadata file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\P4\Session_1\Session_1_metadata.csv
+2024-12-04 04:31:22,577 - INFO - 127.0.0.1 - - [04/Dec/2024 04:31:22] "POST / HTTP/1.1" 200 -
+2024-12-04 04:31:26,922 - INFO - Flask app started processing request.
+2024-12-04 04:31:26,922 - INFO - Selected data type: heartrate
+2024-12-04 04:31:26,922 - INFO - Selected participant: P4
+2024-12-04 04:31:26,923 - INFO - Selected session: Session_8
+2024-12-04 04:31:26,923 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\P4\Session_8.csv
+2024-12-04 04:31:26,934 - INFO - Metadata file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\P4\Session_8\Session_8_metadata.csv
+2024-12-04 04:31:26,980 - INFO - 127.0.0.1 - - [04/Dec/2024 04:31:26] "POST / HTTP/1.1" 200 -
+2024-12-04 04:31:29,878 - INFO - Flask app started processing request.
+2024-12-04 04:31:29,878 - INFO - Selected data type: heartrate
+2024-12-04 04:31:29,878 - INFO - Selected participant: P4
+2024-12-04 04:31:29,879 - INFO - Selected session: Session_7
+2024-12-04 04:31:29,879 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\P4\Session_7.csv
+2024-12-04 04:31:29,886 - INFO - Metadata file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\P4\Session_7\Session_7_metadata.csv
+2024-12-04 04:31:29,923 - INFO - 127.0.0.1 - - [04/Dec/2024 04:31:29] "POST / HTTP/1.1" 200 -
+2024-12-04 04:31:38,801 - INFO - Flask app started processing request.
+2024-12-04 04:31:38,802 - INFO - Selected data type: heartrate
+2024-12-04 04:31:38,802 - INFO - Selected participant: P4
+2024-12-04 04:31:38,802 - INFO - Selected session: Session_5
+2024-12-04 04:31:38,802 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\P4\Session_5.csv
+2024-12-04 04:31:38,813 - INFO - Metadata file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\P4\Session_5\Session_5_metadata.csv
+2024-12-04 04:31:38,839 - INFO - 127.0.0.1 - - [04/Dec/2024 04:31:38] "POST / HTTP/1.1" 200 -
+2024-12-04 04:31:40,847 - INFO - Flask app started processing request.
+2024-12-04 04:31:40,848 - INFO - Selected data type: heartrate
+2024-12-04 04:31:40,848 - INFO - Selected participant: P4
+2024-12-04 04:31:40,848 - INFO - Selected session: Session_2
+2024-12-04 04:31:40,848 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\P4\Session_2.csv
+2024-12-04 04:31:40,852 - INFO - Metadata file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\P4\Session_2\Session_2_metadata.csv
+2024-12-04 04:31:40,881 - INFO - 127.0.0.1 - - [04/Dec/2024 04:31:40] "POST / HTTP/1.1" 200 -
+2024-12-04 04:31:44,767 - INFO - Flask app started processing request.
+2024-12-04 04:31:44,767 - INFO - Selected data type: heartrate
+2024-12-04 04:31:44,767 - INFO - Selected participant: N17
+2024-12-04 04:31:44,767 - INFO - Selected session: Session_1
+2024-12-04 04:31:44,767 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N17\Session_1.csv
+2024-12-04 04:31:44,774 - INFO - Metadata file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N17\Session_1\Session_1_metadata.csv
+2024-12-04 04:31:44,805 - INFO - 127.0.0.1 - - [04/Dec/2024 04:31:44] "POST / HTTP/1.1" 200 -
+2024-12-04 04:31:47,386 - INFO - Flask app started processing request.
+2024-12-04 04:31:47,386 - INFO - Selected data type: heartrate
+2024-12-04 04:31:47,386 - INFO - Selected participant: N10
+2024-12-04 04:31:47,386 - INFO - Selected session: Session_1
+2024-12-04 04:31:47,387 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N10\Session_1.csv
+2024-12-04 04:31:47,392 - INFO - Metadata file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N10\Session_1\Session_1_metadata.csv
+2024-12-04 04:31:47,424 - INFO - 127.0.0.1 - - [04/Dec/2024 04:31:47] "POST / HTTP/1.1" 200 -
+2024-12-04 04:31:48,936 - INFO - Flask app started processing request.
+2024-12-04 04:31:48,937 - INFO - Selected data type: heartrate
+2024-12-04 04:31:48,937 - INFO - Selected participant: N10
+2024-12-04 04:31:48,937 - INFO - Selected session: Session_2
+2024-12-04 04:31:48,937 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N10\Session_2.csv
+2024-12-04 04:31:48,942 - INFO - Metadata file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N10\Session_2\Session_2_metadata.csv
+2024-12-04 04:31:48,974 - INFO - 127.0.0.1 - - [04/Dec/2024 04:31:48] "POST / HTTP/1.1" 200 -
+2024-12-04 04:31:52,455 - INFO - Flask app started processing request.
+2024-12-04 04:31:52,455 - INFO - Selected data type: heartrate
+2024-12-04 04:31:52,455 - INFO - Selected participant: N10
+2024-12-04 04:31:52,455 - INFO - Selected session: Session_4
+2024-12-04 04:31:52,456 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N10\Session_4.csv
+2024-12-04 04:31:52,460 - INFO - Metadata file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N10\Session_4\Session_4_metadata.csv
+2024-12-04 04:31:52,491 - INFO - 127.0.0.1 - - [04/Dec/2024 04:31:52] "POST / HTTP/1.1" 200 -
+2024-12-04 04:31:54,559 - INFO - Flask app started processing request.
+2024-12-04 04:31:54,559 - INFO - Selected data type: heartrate
+2024-12-04 04:31:54,559 - INFO - Selected participant: N10
+2024-12-04 04:31:54,559 - INFO - Selected session: Session_6
+2024-12-04 04:31:54,559 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N10\Session_6.csv
+2024-12-04 04:31:54,563 - INFO - Metadata file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N10\Session_6\Session_6_metadata.csv
+2024-12-04 04:31:54,589 - INFO - 127.0.0.1 - - [04/Dec/2024 04:31:54] "POST / HTTP/1.1" 200 -
+2024-12-04 04:31:56,192 - INFO - Flask app started processing request.
+2024-12-04 04:31:56,193 - INFO - Selected data type: heartrate
+2024-12-04 04:31:56,193 - INFO - Selected participant: N10
+2024-12-04 04:31:56,193 - INFO - Selected session: Session_1
+2024-12-04 04:31:56,193 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N10\Session_1.csv
+2024-12-04 04:31:56,197 - INFO - Metadata file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N10\Session_1\Session_1_metadata.csv
+2024-12-04 04:31:56,221 - INFO - 127.0.0.1 - - [04/Dec/2024 04:31:56] "POST / HTTP/1.1" 200 -
+2024-12-04 04:34:50,650 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-04 04:34:50,651 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-04 04:34:53,511 - INFO - Flask app started processing request.
+2024-12-04 04:34:53,512 - INFO - Selected data type: heartrate
+2024-12-04 04:34:53,512 - INFO - Selected participant: N10
+2024-12-04 04:34:53,512 - INFO - Selected session: Session_1
+2024-12-04 04:34:55,575 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N10\Session_1.csv
+2024-12-04 04:34:55,577 - INFO - Metadata file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N10\Session_1\Session_1_metadata.csv
+2024-12-04 04:34:55,838 - INFO - 127.0.0.1 - - [04/Dec/2024 04:34:55] "POST / HTTP/1.1" 200 -
+2024-12-04 04:35:06,310 - INFO - Flask app started processing request.
+2024-12-04 04:35:06,310 - INFO - Selected data type: heartrate
+2024-12-04 04:35:06,311 - INFO - Selected participant: N12
+2024-12-04 04:35:06,311 - INFO - Selected session: Session_1
+2024-12-04 04:35:07,994 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N12\Session_1.csv
+2024-12-04 04:35:08,002 - INFO - Metadata file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N12\Session_1\Session_1_metadata.csv
+2024-12-04 04:35:08,039 - INFO - 127.0.0.1 - - [04/Dec/2024 04:35:08] "POST / HTTP/1.1" 200 -
+2024-12-04 04:35:09,704 - INFO - Flask app started processing request.
+2024-12-04 04:35:09,704 - INFO - Selected data type: heartrate
+2024-12-04 04:35:09,704 - INFO - Selected participant: N12
+2024-12-04 04:35:09,705 - INFO - Selected session: Session_2
+2024-12-04 04:35:11,429 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N12\Session_2.csv
+2024-12-04 04:35:11,437 - INFO - Metadata file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N12\Session_2\Session_2_metadata.csv
+2024-12-04 04:35:11,461 - INFO - 127.0.0.1 - - [04/Dec/2024 04:35:11] "POST / HTTP/1.1" 200 -
+2024-12-04 04:35:28,532 - INFO - Flask app started processing request.
+2024-12-04 04:35:28,532 - INFO - Selected data type: heartrate
+2024-12-04 04:35:28,532 - INFO - Selected participant: N12
+2024-12-04 04:35:28,532 - INFO - Selected session: Session_1
+2024-12-04 04:35:30,171 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N12\Session_1.csv
+2024-12-04 04:35:30,173 - INFO - Metadata file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N12\Session_1\Session_1_metadata.csv
+2024-12-04 04:35:30,198 - INFO - 127.0.0.1 - - [04/Dec/2024 04:35:30] "POST / HTTP/1.1" 200 -
+2024-12-04 04:39:27,345 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-04 04:39:27,345 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-04 04:39:31,269 - INFO - Flask app started processing request.
+2024-12-04 04:39:31,269 - INFO - Selected data type: heartrate
+2024-12-04 04:39:31,269 - INFO - Selected participant: N12
+2024-12-04 04:39:31,269 - INFO - Selected session: Session_1
+2024-12-04 04:39:33,300 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N12\Session_1.csv
+2024-12-04 04:39:33,303 - INFO - Metadata file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N12\Session_1\Session_1_metadata.csv
+2024-12-04 04:39:33,640 - INFO - 127.0.0.1 - - [04/Dec/2024 04:39:33] "POST / HTTP/1.1" 200 -
+2024-12-04 04:39:40,727 - INFO - Flask app started processing request.
+2024-12-04 04:39:40,727 - INFO - Selected data type: heartrate
+2024-12-04 04:39:40,727 - INFO - Selected participant: N12
+2024-12-04 04:39:40,727 - INFO - Selected session: Session_2
+2024-12-04 04:39:42,396 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N12\Session_2.csv
+2024-12-04 04:39:42,397 - INFO - Metadata file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N12\Session_2\Session_2_metadata.csv
+2024-12-04 04:39:42,439 - INFO - 127.0.0.1 - - [04/Dec/2024 04:39:42] "POST / HTTP/1.1" 200 -
+2024-12-04 04:39:45,550 - INFO - Flask app started processing request.
+2024-12-04 04:39:45,550 - INFO - Selected data type: heartrate
+2024-12-04 04:39:45,550 - INFO - Selected participant: N12
+2024-12-04 04:39:45,551 - INFO - Selected session: Session_3
+2024-12-04 04:39:47,216 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N12\Session_3.csv
+2024-12-04 04:39:47,223 - INFO - Metadata file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N12\Session_3\Session_3_metadata.csv
+2024-12-04 04:39:47,245 - INFO - 127.0.0.1 - - [04/Dec/2024 04:39:47] "POST / HTTP/1.1" 200 -
+2024-12-04 04:39:50,688 - INFO - Flask app started processing request.
+2024-12-04 04:39:50,688 - INFO - Selected data type: heartrate
+2024-12-04 04:39:50,688 - INFO - Selected participant: N12
+2024-12-04 04:39:50,688 - INFO - Selected session: Session_4
+2024-12-04 04:39:52,341 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N12\Session_4.csv
+2024-12-04 04:39:52,348 - INFO - Metadata file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N12\Session_4\Session_4_metadata.csv
+2024-12-04 04:39:52,404 - INFO - 127.0.0.1 - - [04/Dec/2024 04:39:52] "POST / HTTP/1.1" 200 -
+2024-12-04 04:39:54,664 - INFO - Flask app started processing request.
+2024-12-04 04:39:54,664 - INFO - Selected data type: heartrate
+2024-12-04 04:39:54,664 - INFO - Selected participant: N16
+2024-12-04 04:39:54,664 - INFO - Selected session: Session_1
+2024-12-04 04:39:56,355 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N16\Session_1.csv
+2024-12-04 04:39:56,357 - INFO - Metadata file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N16\Session_1\Session_1_metadata.csv
+2024-12-04 04:39:56,404 - INFO - 127.0.0.1 - - [04/Dec/2024 04:39:56] "POST / HTTP/1.1" 200 -
+2024-12-04 04:40:03,537 - INFO - Flask app started processing request.
+2024-12-04 04:40:03,537 - INFO - Selected data type: heartrate
+2024-12-04 04:40:03,537 - INFO - Selected participant: N16
+2024-12-04 04:40:03,537 - INFO - Selected session: Session_2
+2024-12-04 04:40:05,176 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N16\Session_2.csv
+2024-12-04 04:40:05,179 - INFO - Metadata file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N16\Session_2\Session_2_metadata.csv
+2024-12-04 04:40:05,323 - INFO - 127.0.0.1 - - [04/Dec/2024 04:40:05] "POST / HTTP/1.1" 200 -
+2024-12-04 04:40:07,250 - INFO - Flask app started processing request.
+2024-12-04 04:40:07,251 - INFO - Selected data type: heartrate
+2024-12-04 04:40:07,251 - INFO - Selected participant: N14
+2024-12-04 04:40:07,251 - INFO - Selected session: Session_1
+2024-12-04 04:40:08,910 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N14\Session_1.csv
+2024-12-04 04:40:08,912 - INFO - Metadata file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N14\Session_1\Session_1_metadata.csv
+2024-12-04 04:40:08,986 - INFO - 127.0.0.1 - - [04/Dec/2024 04:40:08] "POST / HTTP/1.1" 200 -
+2024-12-04 04:40:19,278 - INFO - Flask app started processing request.
+2024-12-04 04:40:19,278 - INFO - Selected data type: heartrate
+2024-12-04 04:40:19,278 - INFO - Selected participant: N7
+2024-12-04 04:40:19,278 - INFO - Selected session: Session_1
+2024-12-04 04:40:20,984 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N7\Session_1.csv
+2024-12-04 04:40:20,992 - INFO - Metadata file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N7\Session_1\Session_1_metadata.csv
+2024-12-04 04:40:21,144 - INFO - 127.0.0.1 - - [04/Dec/2024 04:40:21] "POST / HTTP/1.1" 200 -
+2024-12-04 04:40:23,141 - INFO - Flask app started processing request.
+2024-12-04 04:40:23,142 - INFO - Selected data type: heartrate
+2024-12-04 04:40:23,142 - INFO - Selected participant: N11
+2024-12-04 04:40:23,142 - INFO - Selected session: Session_1
+2024-12-04 04:40:24,836 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N11\Session_1.csv
+2024-12-04 04:40:24,838 - INFO - Metadata file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N11\Session_1\Session_1_metadata.csv
+2024-12-04 04:40:24,916 - INFO - 127.0.0.1 - - [04/Dec/2024 04:40:24] "POST / HTTP/1.1" 200 -
+2024-12-04 04:40:35,524 - INFO - Flask app started processing request.
+2024-12-04 04:40:35,524 - INFO - Selected data type: heartrate
+2024-12-04 04:40:35,524 - INFO - Selected participant: N11
+2024-12-04 04:40:35,524 - INFO - Selected session: Session_2
+2024-12-04 04:40:37,243 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N11\Session_2.csv
+2024-12-04 04:40:37,245 - INFO - Metadata file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N11\Session_2\Session_2_metadata.csv
+2024-12-04 04:40:37,284 - INFO - 127.0.0.1 - - [04/Dec/2024 04:40:37] "POST / HTTP/1.1" 200 -
+2024-12-04 04:40:43,982 - INFO - Flask app started processing request.
+2024-12-04 04:40:43,982 - INFO - Selected data type: heartrate
+2024-12-04 04:40:43,982 - INFO - Selected participant: N21
+2024-12-04 04:40:43,982 - INFO - Selected session: Session_1
+2024-12-04 04:40:45,679 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N21\Session_1.csv
+2024-12-04 04:40:45,682 - INFO - Metadata file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N21\Session_1\Session_1_metadata.csv
+2024-12-04 04:40:45,721 - INFO - 127.0.0.1 - - [04/Dec/2024 04:40:45] "POST / HTTP/1.1" 200 -
+2024-12-04 04:40:48,971 - INFO - Flask app started processing request.
+2024-12-04 04:40:48,971 - INFO - Selected data type: heartrate
+2024-12-04 04:40:48,971 - INFO - Selected participant: N14
+2024-12-04 04:40:48,972 - INFO - Selected session: Session_1
+2024-12-04 04:40:50,670 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N14\Session_1.csv
+2024-12-04 04:40:50,672 - INFO - Metadata file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N14\Session_1\Session_1_metadata.csv
+2024-12-04 04:40:50,742 - INFO - 127.0.0.1 - - [04/Dec/2024 04:40:50] "POST / HTTP/1.1" 200 -
+2024-12-04 04:40:59,510 - INFO - Flask app started processing request.
+2024-12-04 04:40:59,511 - INFO - Selected data type: heartrate
+2024-12-04 04:40:59,511 - INFO - Selected participant: N10
+2024-12-04 04:40:59,511 - INFO - Selected session: Session_1
+2024-12-04 04:41:01,226 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N10\Session_1.csv
+2024-12-04 04:41:01,228 - INFO - Metadata file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N10\Session_1\Session_1_metadata.csv
+2024-12-04 04:41:01,312 - INFO - 127.0.0.1 - - [04/Dec/2024 04:41:01] "POST / HTTP/1.1" 200 -
+2024-12-04 04:41:15,501 - INFO - Flask app started processing request.
+2024-12-04 04:41:15,501 - INFO - Selected data type: heartrate
+2024-12-04 04:41:15,501 - INFO - Selected participant: N10
+2024-12-04 04:41:15,501 - INFO - Selected session: Session_2
+2024-12-04 04:41:17,273 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N10\Session_2.csv
+2024-12-04 04:41:17,275 - INFO - Metadata file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N10\Session_2\Session_2_metadata.csv
+2024-12-04 04:41:17,378 - INFO - 127.0.0.1 - - [04/Dec/2024 04:41:17] "POST / HTTP/1.1" 200 -
+2024-12-04 04:41:19,456 - INFO - Flask app started processing request.
+2024-12-04 04:41:19,456 - INFO - Selected data type: heartrate
+2024-12-04 04:41:19,456 - INFO - Selected participant: N10
+2024-12-04 04:41:19,457 - INFO - Selected session: Session_3
+2024-12-04 04:41:21,177 - INFO - Looking for session file: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N10\Session_3.csv
+2024-12-04 04:41:21,179 - INFO - Metadata file found: D:\Projects\MindMap\MindMap-main\Processed_heartrate_sessions\N10\Session_3\Session_3_metadata.csv
+2024-12-04 04:41:21,295 - INFO - 127.0.0.1 - - [04/Dec/2024 04:41:21] "POST / HTTP/1.1" 200 -
