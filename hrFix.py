@@ -2,7 +2,7 @@ import os
 import pandas as pd
 
 # Base directory (This is the only thing you need to change to make this work with yours hopefully)
-raw_sublevel_dir = "Watch_data_org/heartrate_data"
+raw_sublevel_dir = "/Users/shehjarsadhu/Desktop/UniversityOfRhodeIsland/Graduate/WBL/Project_MindGame/MindGame-at-home-study-data/Session_Organized_2/heartrate_data"
 processed_sublevel_dir = "Processed_heartrate_sublevel_data"
 processed_session_dir = "Processed_heartrate_sessions_data"
 

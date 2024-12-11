@@ -1,0 +1,74 @@
+2024-12-11 14:50:26,826 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-11 14:50:26,826 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-11 14:51:10,065 - INFO - Flask app started processing request.
+2024-12-11 14:51:10,065 - INFO - Selected data type: heartrate
+2024-12-11 14:51:10,065 - INFO - Selected participant: N12
+2024-12-11 14:51:10,065 - INFO - Selected session: Session_4_2024-07-03_AM
+2024-12-11 14:51:14,482 - INFO - Looking for session file: /Users/shehjarsadhu/Desktop/UniversityOfRhodeIsland/Graduate/WBL/Project_MindGame/Aidan_Fall2024/MindMap/Processed_heartrate_sessions_data/N12/Session_4_2024-07-03_AM.csv
+2024-12-11 14:51:14,485 - INFO - Metadata file found: /Users/shehjarsadhu/Desktop/UniversityOfRhodeIsland/Graduate/WBL/Project_MindGame/Aidan_Fall2024/MindMap/heartrate_metadata/N12/Session_4_2024-07-03_AM/Session_4_2024-07-03_AM_metadata.csv
+2024-12-11 14:51:15,147 - INFO - 127.0.0.1 - - [11/Dec/2024 14:51:15] "GET / HTTP/1.1" 200 -
+2024-12-11 14:51:15,880 - INFO - 127.0.0.1 - - [11/Dec/2024 14:51:15] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-12-11 14:51:26,211 - INFO - Flask app started processing request.
+2024-12-11 14:51:26,212 - INFO - Selected data type: heartrate
+2024-12-11 14:51:26,212 - INFO - Selected participant: P4
+2024-12-11 14:51:26,212 - INFO - Selected session: Session_4_2024-06-02_PM
+2024-12-11 14:51:28,131 - INFO - Flask app started processing request.
+2024-12-11 14:51:28,158 - INFO - Selected data type: heartrate
+2024-12-11 14:51:28,164 - INFO - Selected participant: N12
+2024-12-11 14:51:28,174 - INFO - Selected session: Session_3_2024-07-03_AM
+2024-12-11 14:51:31,242 - INFO - Flask app started processing request.
+2024-12-11 14:51:31,245 - INFO - Selected data type: heartrate
+2024-12-11 14:51:31,250 - INFO - Selected participant: N12
+2024-12-11 14:51:31,250 - INFO - Selected session: Session_1_2024-06-19_AM
+2024-12-11 14:51:32,463 - INFO - Looking for session file: /Users/shehjarsadhu/Desktop/UniversityOfRhodeIsland/Graduate/WBL/Project_MindGame/Aidan_Fall2024/MindMap/Processed_heartrate_sessions_data/P4/Session_4_2024-06-02_PM.csv
+2024-12-11 14:51:32,495 - INFO - Metadata file found: /Users/shehjarsadhu/Desktop/UniversityOfRhodeIsland/Graduate/WBL/Project_MindGame/Aidan_Fall2024/MindMap/heartrate_metadata/P4/Session_4_2024-06-02_PM/Session_4_2024-06-02_PM_metadata.csv
+2024-12-11 14:51:32,713 - INFO - 127.0.0.1 - - [11/Dec/2024 14:51:32] "POST / HTTP/1.1" 200 -
+2024-12-11 14:51:38,421 - INFO - Looking for session file: /Users/shehjarsadhu/Desktop/UniversityOfRhodeIsland/Graduate/WBL/Project_MindGame/Aidan_Fall2024/MindMap/Processed_heartrate_sessions_data/N12/Session_3_2024-07-03_AM.csv
+2024-12-11 14:51:38,484 - INFO - Metadata file found: /Users/shehjarsadhu/Desktop/UniversityOfRhodeIsland/Graduate/WBL/Project_MindGame/Aidan_Fall2024/MindMap/heartrate_metadata/N12/Session_3_2024-07-03_AM/Session_3_2024-07-03_AM_metadata.csv
+2024-12-11 14:51:38,533 - INFO - Flask app started processing request.
+2024-12-11 14:51:38,537 - INFO - 127.0.0.1 - - [11/Dec/2024 14:51:38] "POST / HTTP/1.1" 200 -
+2024-12-11 14:51:38,537 - INFO - Selected data type: heartrate
+2024-12-11 14:51:38,538 - INFO - Selected participant: N12
+2024-12-11 14:51:38,541 - INFO - Selected session: Session_4_2024-07-03_AM
+2024-12-11 14:51:41,839 - INFO - Looking for session file: /Users/shehjarsadhu/Desktop/UniversityOfRhodeIsland/Graduate/WBL/Project_MindGame/Aidan_Fall2024/MindMap/Processed_heartrate_sessions_data/N12/Session_1_2024-06-19_AM.csv
+2024-12-11 14:51:42,192 - INFO - Metadata file found: /Users/shehjarsadhu/Desktop/UniversityOfRhodeIsland/Graduate/WBL/Project_MindGame/Aidan_Fall2024/MindMap/heartrate_metadata/N12/Session_1_2024-06-19_AM/Session_1_2024-06-19_AM_metadata.csv
+2024-12-11 14:51:43,264 - INFO - 127.0.0.1 - - [11/Dec/2024 14:51:43] "POST / HTTP/1.1" 200 -
+2024-12-11 14:51:45,034 - INFO - Looking for session file: /Users/shehjarsadhu/Desktop/UniversityOfRhodeIsland/Graduate/WBL/Project_MindGame/Aidan_Fall2024/MindMap/Processed_heartrate_sessions_data/N12/Session_4_2024-07-03_AM.csv
+2024-12-11 14:51:45,037 - INFO - Metadata file found: /Users/shehjarsadhu/Desktop/UniversityOfRhodeIsland/Graduate/WBL/Project_MindGame/Aidan_Fall2024/MindMap/heartrate_metadata/N12/Session_4_2024-07-03_AM/Session_4_2024-07-03_AM_metadata.csv
+2024-12-11 14:51:45,164 - INFO - 127.0.0.1 - - [11/Dec/2024 14:51:45] "GET / HTTP/1.1" 200 -
+2024-12-11 14:51:49,685 - INFO - Flask app started processing request.
+2024-12-11 14:51:49,685 - INFO - Selected data type: heartrate
+2024-12-11 14:51:49,686 - INFO - Selected participant: P4
+2024-12-11 14:51:49,686 - INFO - Selected session: Session_4_2024-06-02_PM
+2024-12-11 14:51:51,155 - INFO - Flask app started processing request.
+2024-12-11 14:51:51,156 - INFO - Selected data type: heartrate
+2024-12-11 14:51:51,156 - INFO - Selected participant: N12
+2024-12-11 14:51:51,156 - INFO - Selected session: Session_2_2024-07-02_PM
+2024-12-11 14:51:57,254 - INFO - Looking for session file: /Users/shehjarsadhu/Desktop/UniversityOfRhodeIsland/Graduate/WBL/Project_MindGame/Aidan_Fall2024/MindMap/Processed_heartrate_sessions_data/P4/Session_4_2024-06-02_PM.csv
+2024-12-11 14:51:57,265 - INFO - Metadata file found: /Users/shehjarsadhu/Desktop/UniversityOfRhodeIsland/Graduate/WBL/Project_MindGame/Aidan_Fall2024/MindMap/heartrate_metadata/P4/Session_4_2024-06-02_PM/Session_4_2024-06-02_PM_metadata.csv
+2024-12-11 14:51:57,419 - INFO - 127.0.0.1 - - [11/Dec/2024 14:51:57] "POST / HTTP/1.1" 200 -
+2024-12-11 14:51:58,666 - INFO - Looking for session file: /Users/shehjarsadhu/Desktop/UniversityOfRhodeIsland/Graduate/WBL/Project_MindGame/Aidan_Fall2024/MindMap/Processed_heartrate_sessions_data/N12/Session_2_2024-07-02_PM.csv
+2024-12-11 14:51:58,669 - INFO - Metadata file found: /Users/shehjarsadhu/Desktop/UniversityOfRhodeIsland/Graduate/WBL/Project_MindGame/Aidan_Fall2024/MindMap/heartrate_metadata/N12/Session_2_2024-07-02_PM/Session_2_2024-07-02_PM_metadata.csv
+2024-12-11 14:51:58,770 - INFO - 127.0.0.1 - - [11/Dec/2024 14:51:58] "POST / HTTP/1.1" 200 -
+2024-12-11 14:52:34,464 - INFO - Flask app started processing request.
+2024-12-11 14:52:34,465 - INFO - Selected data type: heartrate
+2024-12-11 14:52:34,465 - INFO - Selected participant: N12
+2024-12-11 14:52:34,465 - INFO - Selected session: Session_1_2024-06-19_AM
+2024-12-11 14:52:38,163 - INFO - Flask app started processing request.
+2024-12-11 14:52:38,175 - INFO - Selected data type: heartrate
+2024-12-11 14:52:38,192 - INFO - Selected participant: N15
+2024-12-11 14:52:38,208 - INFO - Selected session: Session_9_2024-07-06_PM
+2024-12-11 14:52:39,632 - INFO - Looking for session file: /Users/shehjarsadhu/Desktop/UniversityOfRhodeIsland/Graduate/WBL/Project_MindGame/Aidan_Fall2024/MindMap/Processed_heartrate_sessions_data/N12/Session_1_2024-06-19_AM.csv
+2024-12-11 14:52:39,640 - INFO - Metadata file found: /Users/shehjarsadhu/Desktop/UniversityOfRhodeIsland/Graduate/WBL/Project_MindGame/Aidan_Fall2024/MindMap/heartrate_metadata/N12/Session_1_2024-06-19_AM/Session_1_2024-06-19_AM_metadata.csv
+2024-12-11 14:52:39,767 - INFO - Flask app started processing request.
+2024-12-11 14:52:39,771 - INFO - Selected data type: heartrate
+2024-12-11 14:52:39,771 - INFO - Selected participant: N12
+2024-12-11 14:52:39,777 - INFO - Selected session: Session_3_2024-07-03_AM
+2024-12-11 14:52:40,093 - INFO - 127.0.0.1 - - [11/Dec/2024 14:52:40] "POST / HTTP/1.1" 200 -
+2024-12-11 14:52:46,711 - INFO - Looking for session file: /Users/shehjarsadhu/Desktop/UniversityOfRhodeIsland/Graduate/WBL/Project_MindGame/Aidan_Fall2024/MindMap/Processed_heartrate_sessions_data/N15/Session_9_2024-07-06_PM.csv
+2024-12-11 14:52:46,721 - INFO - Metadata file found: /Users/shehjarsadhu/Desktop/UniversityOfRhodeIsland/Graduate/WBL/Project_MindGame/Aidan_Fall2024/MindMap/heartrate_metadata/N15/Session_9_2024-07-06_PM/Session_9_2024-07-06_PM_metadata.csv
+2024-12-11 14:52:47,919 - INFO - 127.0.0.1 - - [11/Dec/2024 14:52:47] "POST / HTTP/1.1" 200 -
+2024-12-11 14:52:48,487 - INFO - Looking for session file: /Users/shehjarsadhu/Desktop/UniversityOfRhodeIsland/Graduate/WBL/Project_MindGame/Aidan_Fall2024/MindMap/Processed_heartrate_sessions_data/N12/Session_3_2024-07-03_AM.csv
+2024-12-11 14:52:48,490 - INFO - Metadata file found: /Users/shehjarsadhu/Desktop/UniversityOfRhodeIsland/Graduate/WBL/Project_MindGame/Aidan_Fall2024/MindMap/heartrate_metadata/N12/Session_3_2024-07-03_AM/Session_3_2024-07-03_AM_metadata.csv
+2024-12-11 14:52:48,532 - INFO - 127.0.0.1 - - [11/Dec/2024 14:52:48] "POST / HTTP/1.1" 200 -

@@ -2,8 +2,8 @@ import os
 import pandas as pd
 
 # Define directories
-original_base_dir = "Watch_data_org/heartrate_data"  # Original session folders
-processed_base_dir = "Processed_heartrate_sessions"  # Processed sessions folder
+original_base_dir = "/Users/shehjarsadhu/Desktop/UniversityOfRhodeIsland/Graduate/WBL/Project_MindGame/MindGame-at-home-study-data/Session_Organized_2/heartrate_data" #"Watch_data_org/heartrate_data"  # Original session folders
+processed_base_dir = "heartrate_metadata"  # Processed sessions folder
 
 def generate_metadata_for_session(session_path, output_path):
     """
